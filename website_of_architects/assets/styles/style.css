@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 11, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 11, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -18,7 +18,7 @@ html {
 /**
    * Remove the margin in all browsers.
    */
-/* line 23, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 23, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 body {
   margin: 0;
 }
@@ -26,7 +26,7 @@ body {
 /**
    * Render the `main` element consistently in IE.
    */
-/* line 31, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 31, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 main {
   display: block;
 }
@@ -35,7 +35,7 @@ main {
    * Correct the font size and margin on `h1` elements within `section` and
    * `article` contexts in Chrome, Firefox, and Safari.
    */
-/* line 40, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 40, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -47,7 +47,7 @@ h1 {
    * 1. Add the correct box sizing in Firefox.
    * 2. Show the overflow in Edge and IE.
    */
-/* line 53, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 53, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -61,7 +61,7 @@ hr {
    * 1. Correct the inheritance and scaling of font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
    */
-/* line 64, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 64, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -74,7 +74,7 @@ pre {
 /**
    * Remove the gray background on active links in IE 10.
    */
-/* line 76, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 76, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 a {
   background-color: transparent;
 }
@@ -83,7 +83,7 @@ a {
    * 1. Remove the bottom border in Chrome 57-
    * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
    */
-/* line 85, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 85, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -96,7 +96,7 @@ abbr[title] {
 /**
    * Add the correct font weight in Chrome, Edge, and Safari.
    */
-/* line 95, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 95, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 b,
 strong {
   font-weight: bolder;
@@ -106,7 +106,7 @@ strong {
    * 1. Correct the inheritance and scaling of font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
    */
-/* line 105, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 105, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 code,
 kbd,
 samp {
@@ -119,7 +119,7 @@ samp {
 /**
    * Add the correct font size in all browsers.
    */
-/* line 116, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 116, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 small {
   font-size: 80%;
 }
@@ -128,7 +128,7 @@ small {
    * Prevent `sub` and `sup` elements from affecting the line height in
    * all browsers.
    */
-/* line 125, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 125, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 sub,
 sup {
   font-size: 75%;
@@ -137,12 +137,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 133, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 133, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 137, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 137, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 sup {
   top: -0.5em;
 }
@@ -152,7 +152,7 @@ sup {
 /**
    * Remove the border on images inside links in IE 10.
    */
-/* line 148, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 148, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 img {
   border-style: none;
 }
@@ -163,7 +163,7 @@ img {
    * 1. Change the font styles in all browsers.
    * 2. Remove the margin in Firefox and Safari.
    */
-/* line 160, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 160, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 button,
 input,
 optgroup,
@@ -183,7 +183,7 @@ textarea {
    * Show the overflow in IE.
    * 1. Show the overflow in Edge.
    */
-/* line 176, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 176, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 button,
 input {
   /* 1 */
@@ -194,7 +194,7 @@ input {
    * Remove the inheritance of text transform in Edge, Firefox, and IE.
    * 1. Remove the inheritance of text transform in Firefox.
    */
-/* line 186, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 186, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 button,
 select {
   /* 1 */
@@ -204,7 +204,7 @@ select {
 /**
    * Correct the inability to style clickable types in iOS and Safari.
    */
-/* line 195, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 195, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -215,7 +215,7 @@ button,
 /**
    * Remove the inner border and padding in Firefox.
    */
-/* line 206, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 206, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -227,7 +227,7 @@ button::-moz-focus-inner,
 /**
    * Restore the focus styles unset by the previous rule.
    */
-/* line 218, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 218, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -238,7 +238,7 @@ button:-moz-focusring,
 /**
    * Correct the padding in Firefox.
    */
-/* line 229, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 229, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -249,7 +249,7 @@ fieldset {
    * 3. Remove the padding so developers are not caught out when they zero out
    *    `fieldset` elements in all browsers.
    */
-/* line 240, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 240, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -268,7 +268,7 @@ legend {
 /**
    * Add the correct vertical alignment in Chrome, Firefox, and Opera.
    */
-/* line 253, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 253, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 progress {
   vertical-align: baseline;
 }
@@ -276,7 +276,7 @@ progress {
 /**
    * Remove the default vertical scrollbar in IE 10+.
    */
-/* line 261, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 261, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 textarea {
   overflow: auto;
 }
@@ -285,7 +285,7 @@ textarea {
    * 1. Add the correct box sizing in IE 10.
    * 2. Remove the padding in IE 10.
    */
-/* line 270, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 270, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -297,7 +297,7 @@ textarea {
 /**
    * Correct the cursor style of increment and decrement buttons in Chrome.
    */
-/* line 280, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 280, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -307,7 +307,7 @@ textarea {
    * 1. Correct the odd appearance in Chrome and Safari.
    * 2. Correct the outline style in Safari.
    */
-/* line 290, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 290, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -318,7 +318,7 @@ textarea {
 /**
    * Remove the inner padding in Chrome and Safari on macOS.
    */
-/* line 299, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 299, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -327,7 +327,7 @@ textarea {
    * 1. Correct the inability to style clickable types in iOS and Safari.
    * 2. Change font properties to `inherit` in Safari.
    */
-/* line 308, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 308, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -340,7 +340,7 @@ textarea {
 /*
    * Add the correct display in Edge, IE 10+, and Firefox.
    */
-/* line 320, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 320, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 details {
   display: block;
 }
@@ -348,7 +348,7 @@ details {
 /*
    * Add the correct display in all browsers.
    */
-/* line 328, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 328, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 summary {
   display: list-item;
 }
@@ -358,7 +358,7 @@ summary {
 /**
    * Add the correct display in IE 10+.
    */
-/* line 339, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 339, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 template {
   display: none;
 }
@@ -366,7 +366,7 @@ template {
 /**
    * Add the correct display in IE 10.
    */
-/* line 347, ../../../projects/website_of_architects/assets/sass/normalizes.scss */
+/* line 347, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/normalizes.scss */
 [hidden] {
   display: none;
 }
@@ -375,7 +375,7 @@ template {
    v2.0-modified | 20110126
    License: none (public domain)
 */
-/* line 6, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 6, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -398,47 +398,47 @@ time, mark, audio, video {
 }
 
 /* make sure to set some focus styles for accessibility */
-/* line 28, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 28, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 :focus {
   outline: 0;
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 33, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 33, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 38, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 38, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 body {
   line-height: 1;
 }
 
-/* line 42, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 42, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 46, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 46, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 50, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 50, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 56, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 56, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 61, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 61, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 input[type=search]::-webkit-search-cancel-button,
 input[type=search]::-webkit-search-decoration,
 input[type=search]::-webkit-search-results-button,
@@ -447,7 +447,7 @@ input[type=search]::-webkit-search-results-decoration {
   -moz-appearance: none;
 }
 
-/* line 69, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 69, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 input[type=search] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -456,7 +456,7 @@ input[type=search] {
   box-sizing: content-box;
 }
 
-/* line 77, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 77, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
@@ -466,7 +466,7 @@ textarea {
 /**
  * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 87, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 87, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 audio,
 canvas,
 video {
@@ -480,7 +480,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 101, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 101, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -490,7 +490,7 @@ audio:not([controls]) {
  * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
  * Known issue: no IE 6 support.
  */
-/* line 111, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 111, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 [hidden] {
   display: none;
 }
@@ -501,7 +501,7 @@ audio:not([controls]) {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 122, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 122, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 html {
   font-size: 100%;
   /* 1 */
@@ -514,7 +514,7 @@ html {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-/* line 132, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 132, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -522,7 +522,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 140, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 140, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -532,7 +532,7 @@ a:hover {
  * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improve image quality when scaled in IE 7.
  */
-/* line 150, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 150, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 img {
   border: 0;
   /* 1 */
@@ -543,7 +543,7 @@ img {
 /**
  * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
-/* line 159, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 159, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 figure {
   margin: 0;
 }
@@ -551,7 +551,7 @@ figure {
 /**
  * Correct margin displayed oddly in IE 6/7.
  */
-/* line 167, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 167, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 form {
   margin: 0;
 }
@@ -559,7 +559,7 @@ form {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 175, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 175, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -571,7 +571,7 @@ fieldset {
  * 2. Correct text not wrapping in Firefox 3.
  * 3. Correct alignment displayed oddly in IE 6/7.
  */
-/* line 187, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 187, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 legend {
   border: 0;
   /* 1 */
@@ -588,7 +588,7 @@ legend {
  *    and Chrome.
  * 3. Improve appearance and consistency in all browsers.
  */
-/* line 201, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 201, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 button,
 input,
 select,
@@ -607,7 +607,7 @@ textarea {
  * Address Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 216, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 216, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 button,
 input {
   line-height: normal;
@@ -619,7 +619,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 228, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 228, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 button,
 select {
   text-transform: none;
@@ -634,7 +634,7 @@ select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 243, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 243, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -650,7 +650,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 256, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 256, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -662,7 +662,7 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 268, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 268, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -680,7 +680,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 282, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 282, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -694,7 +694,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 294, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 294, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -703,7 +703,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 3+.
  */
-/* line 303, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 303, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -714,7 +714,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 6/7/8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 314, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 314, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -725,13 +725,13 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-/* line 323, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 323, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 328, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 328, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 html,
 button,
 input,
@@ -740,36 +740,36 @@ textarea {
   color: #222;
 }
 
-/* line 337, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 337, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 342, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 342, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 347, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 347, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 351, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 351, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 357, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 357, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 361, ../../../projects/website_of_architects/assets/sass/resets.scss */
+/* line 361, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/resets.scss */
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -777,20 +777,67 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* line 4, ../../../projects/website_of_architects/assets/sass/style.sass */
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("./assets/fonts/Roboto-Light.ttf");
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("./assets/fonts/Roboto-Medium.ttf");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("./assets/fonts/Roboto-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("./assets/fonts/Roboto-Black.ttf");
+  font-weight: black;
+  font-style: normal;
+}
+
+/* line 34, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 37, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
 .container {
   max-width: 1170px;
   margin: 0 auto;
 }
 
-/* line 7, ../../../projects/website_of_architects/assets/sass/style.sass */
+/* line 40, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
 .main-section {
-  height: 934px;
+  min-height: 934px;
 }
 
-/* line 9, ../../../projects/website_of_architects/assets/sass/style.sass */
+/* line 42, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
 .main-section__logo {
-  width: 70px;
+  width: 71px;
+}
+
+/* line 46, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
+.third-section__text_light {
+  font-weight: light;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
