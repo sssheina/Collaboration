@@ -779,39 +779,65 @@ textarea {
 
 @font-face {
   font-family: "Roboto", sans-serif;
-  src: url("../fonts/Roboto-Light.ttf");
+  src: url("./assets/fonts/Roboto-Light.ttf");
   font-weight: light;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto", sans-serif;
-  src: url("../fonts/Roboto-Regular.ttf");
+  src: url("./assets/fonts/Roboto-Regular.ttf");
   font-weight: regular;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto", sans-serif;
-  src: url("../fonts/Roboto-Medium.ttf");
+  src: url("./assets/fonts/Roboto-Medium.ttf");
   font-weight: medium;
   font-style: normal;
 }
 
-/* line 23, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("./assets/fonts/Roboto-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("./assets/fonts/Roboto-Black.ttf");
+  font-weight: black;
+  font-style: normal;
+}
+
+/* line 34, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 37, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
 .container {
   max-width: 1170px;
   margin: 0 auto;
 }
 
-/* line 26, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
+/* line 40, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
 .main-section {
   min-height: 934px;
 }
 
-/* line 28, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
+/* line 42, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
 .main-section__logo {
   width: 71px;
+}
+
+/* line 46, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
+.third-section__text_light {
+  font-weight: light;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
