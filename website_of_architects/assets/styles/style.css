@@ -785,7 +785,7 @@ textarea {
 
 /* line 7, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
 .main-section {
-  height: 934px;
+  min-height: 934px;
 }
 
 /* line 9, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
