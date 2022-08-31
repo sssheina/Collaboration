@@ -777,18 +777,39 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* line 4, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../fonts/Roboto-Light.ttf");
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../fonts/Roboto-Medium.ttf");
+  font-weight: medium;
+  font-style: normal;
+}
+
+/* line 23, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
 .container {
   max-width: 1170px;
   margin: 0 auto;
 }
 
-/* line 7, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
+/* line 26, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
 .main-section {
   min-height: 934px;
 }
 
-/* line 9, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
+/* line 28, ../../../projects/website_of_architects/Collaboration/website_of_architects/assets/sass/style.sass */
 .main-section__logo {
   width: 71px;
 }
