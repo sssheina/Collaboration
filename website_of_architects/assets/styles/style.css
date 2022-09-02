@@ -751,10 +751,10 @@ body {
   color: #F2F2F2;
 }
 
-.third-section__text_1.text_light {
+.third-section__text_1 {
   position: relative;
-  width: 279px;
-  min-height: 144;
+  max-width: 279px;
+  min-height: 144px;
   margin-left: 30px;
 }
 
