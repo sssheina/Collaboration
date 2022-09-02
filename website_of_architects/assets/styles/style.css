@@ -763,4 +763,35 @@ body {
   color: #333333;
 }
 
+.main-section {
+  height: 934px;
+}
+.main-section__logo {
+  width: 70px;
+}
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  font-family: "Roboto", sans-serif;
+}
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+.nav-menu__item {
+  margin-right: 61px;
+}
+.nav-menu__item:first-child {
+  margin-right: 61px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.nav-menu__item:last-child {
+  margin-right: 0px;
+}
+
 /*# sourceMappingURL=style.css.map */

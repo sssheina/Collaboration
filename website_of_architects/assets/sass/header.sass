@@ -1,36 +1,3 @@
-@import "normalizes.scss"
-@import "resets.scss"
-
-
-@font-face
-    font-family: "Roboto", sans-serif
-    src: url('./assets/fonts/Roboto-Light.ttf')
-    font-weight: light /* 300 */
-    font-style: normal
-
-@font-face
-    font-family: "Roboto", sans-serif
-    src: url('./assets/fonts/Roboto-Regular.ttf')
-    font-weight: regular /* 400 */
-    font-style: normal
-
-@font-face
-    font-family: "Roboto", sans-serif
-    src: url('./assets/fonts/Roboto-Medium.ttf')
-    font-weight: medium /* 500 */
-    font-style: normal
-
-@font-face
-    font-family: "Roboto", sans-serif
-    src: url('./assets/fonts/Roboto-Bold.ttf')
-    font-weight: bold/* 700 */
-    font-style: normal
-
-@font-face
-    font-family: "Roboto", sans-serif
-    src: url('./assets/fonts/Roboto-Black.ttf')
-    font-weight: black /* 900 */
-    font-style: normal
 
 .main-section
     height: 934px
@@ -47,10 +14,15 @@
     &__list
         display: flex
         flex-direction: row
+        
     &__item
         margin-right: 61px
-    &:last-child
-        margin-right: 0px
-    &:first-child
-        border: 1px solid black
-        border-bottom: 1px solid black    
+        &:first-child
+            margin-right: 61px
+            border-top: 1px solid black
+            border-bottom: 1px solid black 
+        &:last-child
+            margin-right: 0px
+
+
+
