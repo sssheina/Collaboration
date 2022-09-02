@@ -653,31 +653,31 @@ textarea {
 @font-face {
   font-family: "Roboto", sans-serif;
   src: url "./assets/fonts/Roboto-Light.ttf";
-  font-weight: 300; /* 300 */
+  font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto", sans-serif;
   src: url "./assets/fonts/Roboto-Regular.ttf";
-  font-weight: 400; /* 400 */
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto", sans-serif;
   src: url "./assets/fonts/Roboto-Medium.ttf";
-  font-weight: 500; /* 500 */
+  font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto", sans-serif;
   src: url "./assets/fonts/Roboto-Bold.ttf";
-  font-weight: 700; /* 700 */
+  font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto", sans-serif;
   src: url "./assets/fonts/Roboto-Black.ttf";
-  font-weight: 900; /* 900 */
+  font-weight: 900;
   font-style: normal;
 }
 body {
@@ -697,6 +697,10 @@ body {
   width: 70px;
 }
 
+.third-section {
+  margin-top: 120px;
+}
+
 .third-section__container {
   display: flex;
   flex-direction: column;
@@ -707,7 +711,7 @@ body {
 
 .third-section__first-row {
   position: relative;
-  max-width: 880px;
+  width: 880px;
   min-height: 64px;
 }
 
@@ -716,8 +720,9 @@ body {
   flex-direction: row;
   position: relative;
   justify-content: space-between;
-  max-width: 1170px;
+  width: 1170px;
   min-height: 144px;
+  margin-top: 62px;
 }
 
 .third-section__left-wrapper {
@@ -725,7 +730,7 @@ body {
   flex-direction: row;
   align-content: center;
   position: relative;
-  max-width: 413px;
+  max-width: 423px;
   min-height: 144px;
 }
 
@@ -745,15 +750,20 @@ body {
   align-self: center;
 }
 
-.third-section__span {
-  font-weight: 900;
-  font-size: 200px;
-  color: #F2F2F2;
+.third-section__svg-1 {
+  position: relative;
+  max-width: 104px;
+  min-height: 144;
+}
+
+.third-section__svg-2 {
+  position: relative;
+  max-width: 120px;
+  min-height: 144;
 }
 
 .third-section__text_1 {
-  position: relative;
-  max-width: 279px;
+  max-width: 310px;
   min-height: 144px;
   margin-left: 30px;
 }
@@ -769,7 +779,7 @@ body {
   font-weight: 300;
   font-size: 64px;
   line-height: 64px;
-  color: #F2F2F2;
+  color: #BDBDBD;
 }
 
 .title {
