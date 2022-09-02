@@ -773,6 +773,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  margin-top: 39.83px;
 }
 
 .nav-menu {
@@ -784,11 +786,17 @@ body {
 }
 .nav-menu__item {
   margin-right: 61px;
+  align-self: center;
 }
 .nav-menu__item:first-child {
   margin-right: 61px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  padding-top: 3.89px;
+  padding-bottom: 3.89px;
+  width: 68px;
+  height: 19.44px;
+  text-align: center;
 }
 .nav-menu__item:last-child {
   margin-right: 0px;
