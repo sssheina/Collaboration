@@ -5,7 +5,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import "header.css";
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -681,20 +680,32 @@ textarea {
   font-weight: black;
   font-style: normal;
 }
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-
 .main-section {
   height: 934px;
 }
 .main-section__logo {
   width: 70px;
 }
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-.third-section__text_light {
-  font-weight: light;
-  font-size: 16px;
-  line-height: 25px;
-}/*# sourceMappingURL=style.css.map */
+.nav-menu {
+  font-family: "Roboto", sans-serif;
+}
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+.nav-menu__item {
+  margin-right: 61px;
+}
+.nav-menu:last-child {
+  margin-right: 0px;
+}
+.nav-menu:first-child {
+  border: 1px solid black;
+  border-bottom: 1px solid black;
+}/*# sourceMappingURL=header.css.map */
