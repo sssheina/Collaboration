@@ -32,45 +32,54 @@
       </nav>
     </div>
     <div class="main-section__content-container container">
+
       <!-- Левая часть первой секции -->
       <div class="main-section__left-wrapper">
+
         <!-- Заголовок -->
         <h1 class="main-section__subtitle subtitle">PROJECT</h1>
         <h2 class="main-section__title title">Lorum</h2>
-        <!-- Элементы навигации к иллюстрациям -->
-        <div class="main-section__arrows arrows">
+
+
+        <!-- Блок row-2 -->
+        <div class="main-section__row-2 row-2">
+
+          <!-- Кнопки квадратные со стрелками -->
+          <div class="main-section__arrows arrows">
           <button class="main-section__button-arrows_left-arrow button-arrows">←</button>
           <button class="main-section__button-arrows_right-arrow button-arrows">→</button>
+          </div>
+
+          <!-- Горизонтальная линия -->
+          <div class="main-section__line">
+            <!-- <hr> -->
+            <img src="./assets/images/Line 2.png" alt="line" class="main-section__line-img line" />
+          </div>
         </div>
+        
 
-        <!-- <div class="main-section__elements elements"><img src="./assets/images/slide-numbers.png" alt="Slide-numbers" class="main-section__slide-numbers" /></div> -->
-
-        <!-- <svg height="100" width="200">
-                <line x1="0" y1="100" x2="100" y2="0" style="stroke:rgb(255,0,0);stroke-width:2" />
-                Sorry, your browser does not support inline SVG.
-              </svg> -->
-
+        <!-- Блок элементов навигации к иллюстрациям -->
         <div class="main-section__elements elements">
-          <!-- <div сlass="main-section__span-number1 vertical-orientation">01</div> -->
+
           <div class="main-section__number_vertical">
             <ol>
               <li class="number_vertical">0</li>
               <li class="number_vertical">1</li>
             </ol>
           </div>
-        </div class="main-section__slash slash">
-        <svg height="100" width="20">
-          <line x1="0" y1="100" x2="100" y2="0" style="stroke:rgb(224, 224, 224);stroke-width:2" />
-          Sorry, your browser does not support inline SVG.
-        </svg>
-        <div class="main-section__number">
-          <ol>
-            <li class="number_vertical">05</li>
-          </ol>
-          <!-- <div class="main-section__number" class="number_vertical">05</div> -->
-        </div>
 
-      </div>
+          <div class="main-section__slash slash">
+            <img src="./assets/images/Line 3.png" alt="Slash" class="main-section__slide-slash" />
+          </div>
+
+          <div class="main-section__number">
+            <ol>
+              <li class="number_vertical">05</li>
+            </ol>
+          </div>
+
+        </div>
+    </div>
 
       <!-- Правая часть первой секции -->
       <div class="main-section__right-wrapper main-wrapper2">
@@ -129,7 +138,18 @@
 
     <!-- Четвёртая секция -->
     <section class="fourth-section">
-      <div class="fourth-section__nav-container container"></div>
+      <div class="fourth-section__container container">
+        <h2 class="fourth-section__subtitle subtitle">Our Projects</h2>
+        <div class="fourth-section__gallery">
+          <img class="fourth-section__item" src="./assets/images/Rectangle 12.png" alt="">
+          <img class="fourth-section__item" src="./assets/images/image 15.png" alt="">
+          <img class="fourth-section__item" src="./assets/images/image 16.png" alt="">
+          <img class="fourth-section__item" src="./assets/images/image 17.png" alt="">
+          <img class="fourth-section__item" src="./assets/images/image 18.png" alt="">
+        </div>
+        <!--Кнопка-->
+        <button class="fourth-section__button button">ALL PROJECTS →</button>
+      </div>
     </section>
 
     <!-- Пятая секция -->
@@ -161,10 +181,14 @@
 
     <!-- Футер -->
     <footer>
+      <div class="footer__background">
       <div class="footer__container container">
-        <div>
-          <span class="footer__container__span">Information</span>
-          <ul class="footer__container__main">
+          <div class="footer__column-1 column-1">
+            <img class="footer__Logo" src="./assets/images/Group 11 1.png" alt="logo" />
+          </div>
+            <div class="footer__column-2 column-2">
+            <span class="footer__span">Information</span>
+            <ul class="footer__main">
             <li>Main</li>
             <li>Gallery</li>
             <li>Projects</li>
@@ -172,8 +196,23 @@
             <li>Contacts</li>
           </ul>
         </div>
-        <img class="footer__container__logo" src="./assets/images/Group 11 1.png" alt="logo" />
+        <div class="footer__column-3 column-3">
+          <ul class="footer__main-2">
+            <li href="#">Contacts</д>
+            <li>1234 Sample Street
+              Austin Texas 78704</li>
+            <li hrev="phone"> 512.333.2222</li>
+            <li hrev="mailto:someone@example.com">sampleemail@gmail.com</li>
+            </ul>
+        </div>
+        <div class="footer__column-4 column-4">
+          <ul>
+          <li href="#"> Social Media</li>
+        </ul>
+        <button><i class="fa fa-instagram" aria-hidden="true"></i></button>
+        </div>
       </div>
+    </div>
     </footer>
 </body>
 

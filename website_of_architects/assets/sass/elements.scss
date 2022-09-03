@@ -1,3 +1,5 @@
+
+
 .elements {
     font-weight: 400;
 font-size: 24px;
@@ -10,4 +12,10 @@ height: 52px;
     font-weight: 400;
 font-size: 24px;
 line-height: 24px;
+color: #BDBDBD;
+}
+.main-section__elements {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
 }
