@@ -919,6 +919,10 @@ footer {
   max-height: 71px;
 }
 
+.button:hover {
+  background-color: #F2F2F2;
+}
+
 .button-arrows {
   background-color: #ffffff; /* white */
   border: 2px solid #F2F2F2;
