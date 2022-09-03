@@ -1,4 +1,4 @@
-.main-section__content-container {
+.main-section__content-container_two {
     display: flex;
     flex-direction: column;
     
@@ -6,10 +6,10 @@
 .main-section__row-1 {
     margin-top: 47,14px;
 }
-.main-section__subtitle {
+.main-section__subtitle_two {
     margin-top: 0;
 }
-.main-section__row-2 {
+.main-section__row-2_two {
     display: grid;
     grid-template-areas: 
     "gray-1 gray-2 gray-3 gray-4 gray-5"
@@ -59,7 +59,7 @@
     margin-top: 60px;
     gap: 30px;
 }
-.main-section__elements {
+.main-section__elements__two {
     margin-top: 0px;
 }
 
