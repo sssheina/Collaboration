@@ -961,7 +961,7 @@ body {
 
 .button {
   border: none;
-  padding-top: 30px;
+  padding-top: 27px;
   padding-bottom: 29px;
   text-align: center;
   text-decoration: none;
@@ -1105,7 +1105,7 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-.main-section__content-container {
+.main-section__content-container_two {
   display: flex;
   flex-direction: column;
 }
@@ -1114,11 +1114,11 @@ html {
   margin-top: 47, 14px;
 }
 
-.main-section__subtitle {
+.main-section__subtitle_two {
   margin-top: 0;
 }
 
-.main-section__row-2 {
+.main-section__row-2_two {
   display: grid;
   grid-template-areas: "gray-1 gray-2 gray-3 gray-4 gray-5" "gray-6 gray-7 gray-8 gray-9 gray-10";
   grid-template-columns: repeat 5, 1fr;
@@ -1175,7 +1175,7 @@ html {
   gap: 30px;
 }
 
-.main-section__elements {
+.main-section__elements__two {
   margin-top: 0px;
 }
 
