@@ -968,8 +968,8 @@ body {
   display: inline-block;
   font-size: 12px;
   font-weight: 400;
-  max-width: 222px;
-  max-height: 71px;
+  width: 222px;
+  height: 71px;
 }
 
 .button:hover {
@@ -1046,6 +1046,10 @@ body {
 
 .container {
   width: 1170px;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
