@@ -915,8 +915,11 @@ footer {
   display: inline-block;
   font-size: 12px;
   font-weight: 400;
-  max-width: 222px;
-  max-height: 71px;
+  width: 222px;
+  height: 71px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  line-height: 12px;
 }
 
 .button-arrows {
@@ -947,6 +950,42 @@ footer {
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
+}
+
+.fifth-section__container {
+  display: flex;
+  flex-direction: column;
+}
+.fifth-section__subtitle {
+  margin-top: 120px;
+}
+.fifth-section__block {
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 77px;
+}
+.fifth-section__form-item {
+  background: #F3F3F3;
+  color: #8D8D8D;
+  margin-bottom: 10px;
+  padding-left: 21px;
+  border: none;
+  width: 391px;
+  height: 46px;
+}
+
+.textarea {
+  padding-top: 14px;
+  height: 147px;
+  margin-bottom: 0px;
+}
+
+.fifth-section__button {
+  background-color: #333333;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
