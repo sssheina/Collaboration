@@ -1014,7 +1014,8 @@ body {
 }
 
 .fourth-section__container {
-  margin-top: 2027px;
+  display: flex;
+  flex-direction: column;
 }
 
 .fourth-section__gallery {
@@ -1042,6 +1043,13 @@ body {
 }
 .fourth-section__item:nth-of-type(5) {
   grid-column: 9/span 4;
+}
+
+.fourth-section__button {
+  background-color: #333333;
+  color: white;
+  align-self: end;
+  margin-top: 30px;
 }
 
 .container {
