@@ -856,4 +856,89 @@ footer {
   margin-left: 361px;
 }
 
+.main-section__content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1170px;
+  min-height: 829px;
+}
+
+.main-section__left-wrapper {
+  position: relative;
+  max-width: 341px;
+  min-height: 770px;
+}
+
+.main-section__right-wrapper {
+  position: relative;
+  max-width: 829px;
+  min-height: 770px;
+}
+
+.main-section__button {
+  position: absolute;
+  top: 96%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 12px;
+  letter-spacing: 0.3rem;
+  width: 222px;
+  max-height: 71px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.main-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
+
+.button {
+  border: none;
+  padding-top: 30px;
+  padding-bottom: 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  max-width: 222px;
+  max-height: 71px;
+}
+
+.button-arrows {
+  background-color: #ffffff; /* white */
+  border: 2px solid #F2F2F2;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  width: 52.95px;
+  height: 53px;
+}
+
+.button-arrows:hover {
+  background-color: #F2F2F2;
+}
+
+.elements {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  width: 141.88px;
+  height: 52px;
+}
+
+.number_vertical {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+
 /*# sourceMappingURL=style.css.map */
