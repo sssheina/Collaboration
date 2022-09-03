@@ -1010,7 +1010,7 @@ body {
   color: #BDBDBD;
 }
 
-.main-section__elements {
+.main-section__elements, .main-section__element_two {
   display: flex;
   flex-direction: row;
   gap: 32px;
@@ -1175,14 +1175,10 @@ html {
   gap: 30px;
 }
 
-.main-section__elements__two {
-  margin-top: 0px;
-}
-
 .gallery a img:hover {
   -webkit-filter: none;
-} /*returns to defult state*/
-/*reset for brightness*/
+}
+
 .gallery a img brightness:hover {
   -webkit-filter: brightness(1);
 }

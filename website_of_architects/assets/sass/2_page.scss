@@ -59,16 +59,14 @@
     margin-top: 60px;
     gap: 30px;
 }
-.main-section__elements__two {
-    margin-top: 0px;
+
+.gallery a img:hover {
+    -webkit-filter: none;
+} 
+
+.gallery a img brightness:hover {
+    -webkit-filter: brightness(1);
 }
-
-
-
-
-.gallery a img:hover{-webkit-filter:none} /*returns to defult state*/ 
-/*reset for brightness*/
-.gallery a img brightness:hover{-webkit-filter:brightness(1)}
 
 
 .gray {-webkit-filter:grayscale(100%);}
