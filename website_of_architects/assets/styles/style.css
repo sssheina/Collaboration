@@ -1044,4 +1044,8 @@ body {
   grid-column: 9/span 4;
 }
 
+.container {
+  width: 1170px;
+}
+
 /*# sourceMappingURL=style.css.map */
