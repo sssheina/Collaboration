@@ -1051,6 +1051,9 @@ body {
   background-color: #333333;
   color: white;
 }
+.fifth-section__button:hover {
+  background: #8D8D8D;
+}
 
 .fourth-section__container {
   display: flex;
@@ -1089,6 +1092,9 @@ body {
   color: white;
   align-self: end;
   margin-top: 30px;
+}
+.fourth-section__button:hover {
+  background: #8D8D8D;
 }
 
 .container {
