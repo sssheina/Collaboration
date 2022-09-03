@@ -1,0 +1,38 @@
+.footer__background{
+    text-decoration: none;  
+    background-color: #2C2C2C;
+    max-width: 100%;
+    height: 417px;
+    margin-top: 3635px;
+    color: #FFFF;
+}
+.footer__container {
+    display: grid;
+    grid-template-areas: 
+    "column-1 column-2 column-3 column-4";
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+    grid-template-rows: 417px;
+    max-width: 1170px;
+}
+.footer__logo{
+    width: 145px;
+    height: 94px;
+}
+.footer__span{
+    right: 67.85%;
+}
+.footer__main{
+}
+.column-1{
+    grid-area: column-1;
+    height: 100%;
+}
+.column-2{
+    grid-area: column-2;
+}
+.column-3{
+    grid-area: column-3;
+}
+.column-4{
+    grid-area: column-4;
+}

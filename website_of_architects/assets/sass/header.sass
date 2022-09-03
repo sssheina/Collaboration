@@ -8,7 +8,8 @@
         flex-direction: row
         justify-content: space-between
         align-items: center
-        margin-top: 39.83px
+        margin-top: 45px
+        margin-bottom: 45px
         
 
 .nav-menu
@@ -16,23 +17,24 @@
     &__list
         display: flex
         flex-direction: row
-        
     &__item
-        margin-right: 61px
-        align-self: center
-       
-       
-        &:first-child
-            margin-right: 61px
-            border-top: 1px solid black
-            border-bottom: 1px solid black
+        height: 20px
+        margin-right: 65px
+        text-align: center
+        &:last-child
+            width: 83px
+            margin-right: 0px
+    &__item a
+        color: #333333
+        text-decoration: none
+        &:hover
+            border-top: 1px solid #333333
+            border-bottom: 1px solid #333333
             padding-top: 3.89px
             padding-bottom: 3.89px
-            width: 68px
-            height: 19.44px
-            text-align: center 
-        &:last-child
-            margin-right: 0px
-
-
+            padding-left: 10px
+            padding-right: 10px
+            margin-left: -10px
+            margin-right: -10px
+            transition: 0.1s ease-in
 
