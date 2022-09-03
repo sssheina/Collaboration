@@ -968,8 +968,8 @@ body {
   display: inline-block;
   font-size: 12px;
   font-weight: 400;
-  max-width: 222px;
-  max-height: 71px;
+  width: 222px;
+  height: 71px;
 }
 
 .button:hover {
@@ -1013,6 +1013,11 @@ body {
   gap: 32px;
 }
 
+.fourth-section__container {
+  display: flex;
+  flex-direction: column;
+}
+
 .fourth-section__gallery {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -1038,6 +1043,17 @@ body {
 }
 .fourth-section__item:nth-of-type(5) {
   grid-column: 9/span 4;
+}
+
+.fourth-section__button {
+  background-color: #333333;
+  color: white;
+  align-self: end;
+  margin-top: 30px;
+}
+
+.container {
+  width: 1170px;
 }
 
 /*# sourceMappingURL=style.css.map */
