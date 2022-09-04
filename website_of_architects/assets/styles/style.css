@@ -849,8 +849,9 @@ body {
   display: grid;
   grid-template-areas: "column-1 column-2 column-3 column-4";
   grid-template-columns: 1fr 1fr 2fr 2fr;
-  grid-template-rows: 417px;
+  grid-template-rows: 347px;
   max-width: 1170px;
+  gap: 100px;
 }
 
 .footer__logo {
@@ -864,19 +865,26 @@ body {
 
 .column-1 {
   grid-area: column-1;
-  height: 100%;
+  max-width: 400px;
+  margin-top: 58px;
 }
 
 .column-2 {
   grid-area: column-2;
+  margin-top: 58px;
+  line-height: 40px;
 }
 
 .column-3 {
   grid-area: column-3;
+  margin-top: 58px;
+  line-height: 40px;
 }
 
 .column-4 {
   grid-area: column-4;
+  margin-top: 58px;
+  line-height: 40px;
 }
 
 .main-section__content-container {
