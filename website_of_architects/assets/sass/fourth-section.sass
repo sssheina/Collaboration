@@ -1,27 +1,49 @@
 .fourth-section__container
     display: flex
     flex-direction: column
-
+    margin-top: 120px
 
 .fourth-section__gallery
-    display: grid
-    grid-template-columns: repeat(12, 1fr)
-    grid-template-rows: repeat(2, 1fr)
-    gap: 30px
+    display: flex
     margin-top: 60px
+    flex-wrap: wrap
+    gap: 30px
 
 .fourth-section__item
     max-width: 100%
-    &:nth-of-type(1)
-        grid-column: 1 / span 6
-    &:nth-of-type(2)
-        grid-column: 7 / span 6
-    &:nth-of-type(3)
-        grid-column: 1 / span 3
-    &:nth-of-type(4)
-        grid-column: 4 / span 5
-    &:nth-of-type(5)
-        grid-column: 9 / span 4
+    height: auto
+
+.gallery__first-item
+    position: relative
+
+.gallery__first-item:before
+    content: ""
+    width: 570px
+    height: 255px
+    opacity: 0.8
+    position: absolute
+    background: #333333
+
+.gallery__link
+    position: absolute
+    padding-top: 190px
+    padding-left: 79px 
+    text-decoration: none
+    font-weight: 400
+    font-size: 12px
+    line-height: 12px
+    letter-spacing: 0.2em
+    text-transform: uppercase
+    color: #FFFFFF
+    &:hover
+        text-decoration: underline
+
+.gallery__title
+    position: absolute
+    color: #FFFFFF
+    padding-top: 48px
+    padding-left: 79px
+    width: 233px
 
 .fourth-section__button
     background-color: #333333
@@ -30,4 +52,3 @@
     margin-top: 30px
     &:hover
         background: #8D8D8D
-
