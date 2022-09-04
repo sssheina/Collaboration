@@ -894,6 +894,17 @@ body {
   Font-size: 12px;
 }
 
+.footer__icon {
+  text-decoration: none;
+  background: #2C2C2C;
+  margin: 25px;
+}
+
+.footer__icons {
+  text-decoration: none;
+  background: #2C2C2C;
+}
+
 .main-section__content-container {
   display: flex;
   flex-direction: row;
