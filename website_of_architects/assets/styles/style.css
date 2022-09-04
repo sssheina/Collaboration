@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -680,6 +681,11 @@ textarea {
   font-weight: 900;
   font-style: normal;
 }
+@font-face {
+  font-family: "icons";
+  src: url "./assets/fonts/icons.ttf";
+  font-style: normal;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -1195,6 +1201,11 @@ html {
   -webkit-filter: grayscale(100%);
 }
 
+.f1 {
+  font-family: "";
+  color: black;
+}
+
 .main-section__subtitle {
   margin-top: 80px;
 }
@@ -1205,6 +1216,45 @@ html {
   grid-gap: 30px;
   margin-top: 61px;
   margin-bottom: 61px;
+}
+
+@font-face {
+  font-family: "icons";
+  src: url "../fonts/icons.eot?2bx6bw";
+  src: url "../fonts/icons.eot?2bx6bw#iefix" format "embedded-opentype", url "../fonts/icons.ttf?2bx6bw" format "truetype", url "../fonts/icons.woff?2bx6bw" format "woff", url "../fonts/icons.svg?2bx6bw#icons" format "svg";
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=_icon-]::before,
+[class*=" _icon-"]::before {
+  /* используйте !important для предотвращения проблем с расширениями браузера, которые изменяют шрифты */
+  font-family: "icons" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Улучшенный рендеринг шрифтов =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-facebook:before {
+  content: "\e900";
+}
+
+._icon-linked-In:before {
+  content: "\e901";
+}
+
+._icon-pininterest:before {
+  content: "\e902";
+}
+
+._icon-twitter:before {
+  content: "\e903";
 }
 
 /*# sourceMappingURL=style.css.map */
