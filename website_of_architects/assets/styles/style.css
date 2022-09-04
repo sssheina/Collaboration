@@ -1047,9 +1047,17 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   max-width: 1170px;
-  min-height: 465px;
-  background-color: rgba(252, 251, 251, 0.9960784314);
+  min-height: 466x;
   margin-top: 120px;
+}
+
+.second-section__container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  max-width: 1170px;
+  min-height: 436x;
+  background-color: rgba(252, 251, 251, 0.9960784314);
 }
 
 .second-section__item-container {
