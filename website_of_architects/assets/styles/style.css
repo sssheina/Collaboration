@@ -1048,15 +1048,7 @@ body {
   max-width: 1170px;
   min-height: 466x;
   margin-top: 120px;
-}
-
-.second-section__container2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  max-width: 1170px;
-  min-height: 436x;
-  background-color: rgba(252, 251, 251, 0.9960784314);
+  background: linear-gradient(to bottom, #FBFBFB 75%, white 25%);
 }
 
 .second-section__item-container {
@@ -1081,6 +1073,7 @@ body {
 
 .item3 {
   grid-area: item3;
+  padding: -30px;
 }
 
 .second-section__subtitle {
@@ -1097,14 +1090,17 @@ body {
   min-height: 200px;
   margin-top: 30px;
   padding: 0 0 0 40px;
+  line-height: 25px;
 }
 
 .second-section__button {
+  position: absolute;
   width: 222px;
   height: 71px;
   background-color: white;
   align-self: end;
   margin-top: 0px;
+  margin-left: 40px;
 }
 
 .fifth-section__container {
