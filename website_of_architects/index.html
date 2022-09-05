@@ -186,19 +186,33 @@
         <div class="fifth-section__block">
           <!-- Форма обратной связи -->
           <form class="fifth-section__form form">
+
             <label>
-              <input class="fifth-section__form-item" type="text" placeholder="Name" /></label>
-            <label>
-              <input class="fifth-section__form-item" type="phone" placeholder="Phone Number*" required></label>
-            <label>
-              <input class="fifth-section__form-item" type="email" placeholder="E-mail*" required /></label>
-            <label>
-              <input class="fifth-section__form-item" type="text" placeholder="Interested In" /></label>
-            <label>
-              <textarea class="fifth-section__form-item textarea" rows="10" placeholder="Message*" required></textarea>
+              <input class="fifth-section__form-item form__form-item" type="text" placeholder="Name" />
             </label>
+
+            <label>
+              <input class="fifth-section__form-item form__form-item" type="phone" required>
+              <span placeholder='Phone Number'></span>
+            </label>
+
+            <label>
+              <input class="fifth-section__form-item form__form-item" type="e-mail" required>
+              <span placeholder='E-mail'></span>
+            </label>
+
+            <label>
+              <input class="fifth-section__form-item form__form-item" type="text" placeholder="Interested In" />
+            </label>
+
+            <label>
+              <input class="fifth-section__form-item textarea form__form-item" rows="10" required>
+              <span placeholder='Message'></span>
+            </label>
+
           </form>
-          <img src="./assets/images/man-phone.png" alt="man-phone">
+
+          <img src="./assets/images/man-phone.png" alt="man-phone" class="fifth-section__picture">
         </div>
         <!-- Кнопка пятой секции -->
         <button class="fifth-section__button button">SEND EMAIL <img class="main-section__right-arrow"
