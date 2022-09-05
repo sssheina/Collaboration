@@ -798,7 +798,6 @@ body {
 .main-section__nav-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   margin-top: 45px;
   margin-bottom: 45px;
@@ -806,6 +805,7 @@ body {
 
 .nav-menu {
   font-family: "Roboto", sans-serif;
+  margin-left: 320px;
 }
 .nav-menu__list {
   display: flex;
