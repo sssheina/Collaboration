@@ -1,0 +1,39 @@
+.form
+    &__form-item
+        background: #F3F3F3
+        color: #8D8D8D
+        margin-bottom: 10px
+        padding-left: 21px
+        border: none
+        width: 391px
+        height: 46px
+        font-family: 14px
+        letter-spacing: 0.04em
+        
+.textarea
+    height: 140px
+    margin-bottom: 0px    
+
+label
+    position: relative
+    float: left
+
+label span
+    position: absolute
+    padding-top: 16px
+    left: 12px
+    cursor: text
+    
+
+input:invalid + span:before
+    content: attr(placeholder)
+    color: #8D8D8D
+    padding-left: 10px
+    position: relative
+
+
+input:invalid + span:after
+    content: '*'
+    color: #C30000
+    position: relative
+    
