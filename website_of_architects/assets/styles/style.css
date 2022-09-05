@@ -1313,6 +1313,57 @@ html {
   margin-bottom: 61px;
 }
 
+.main__section__6__page {
+  margin-left: 300px;
+  margin-top: 165px;
+  max-width: 500px;
+}
+
+.main__name {
+  width: 280px;
+  height: 46px;
+  margin-top: 34px;
+  font-weight: bolder;
+}
+
+.main__adress {
+  width: 100%;
+  height: 46px;
+}
+
+.main__phone {
+  width: 114px;
+  height: 21px;
+}
+
+.main__mail {
+  width: 114px;
+  height: 21px;
+  margin-top: 30px;
+}
+
+.main__button__6__page {
+  width: 222px;
+  height: 71px;
+  margin-top: 33px;
+  background: #333333;
+  color: white;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  font-style: normal;
+}
+
+.main__map {
+  position: absolute;
+  width: 1319px;
+  height: 501px;
+  left: 550px;
+  top: 180px;
+}
+
 .form__form-item {
   background: #F3F3F3;
   color: #8D8D8D;
