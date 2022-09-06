@@ -1425,7 +1425,7 @@ input:invalid + span:after {
 .line-four {
   margin: 30px;
   color: #F2F2F2;
-  border-bottom: 4px solid #F2F2F2;
+  border-bottom: 2px solid #F2F2F2;
   width: 1170px;
   height: 2px;
   margin-left: 0;
