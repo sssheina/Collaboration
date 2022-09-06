@@ -1463,6 +1463,7 @@ input:invalid + span:after {
 
 .item2 {
   grid-area: item2;
+  margin-top: 0px;
 }
 
 .item3 {
@@ -1474,7 +1475,7 @@ input:invalid + span:after {
   position: relative;
   width: 721px;
   height: 428px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 25px;
 }
 
