@@ -837,12 +837,15 @@ body {
 }
 
 .footer__background {
-  text-decoration: none;
   background-color: #2C2C2C;
   max-width: 100%;
   height: 417px;
   margin-top: 120px;
   color: white;
+}
+
+.footer__conteiner-2 {
+  max-width: 1800px;
 }
 
 .footer__container {
@@ -878,7 +881,7 @@ body {
 .column-3 {
   grid-area: column-3;
   margin-top: 58px;
-  line-height: 40px;
+  line-height: 50px;
 }
 
 .column-4 {
@@ -891,7 +894,7 @@ body {
   width: 100%;
   text-align: center;
   color: rgba(200, 200, 200, 0.5);
-  Font-size: 12px;
+  font-size: 12px;
 }
 
 .footer__icon {
@@ -914,6 +917,10 @@ body {
 .footer__item {
   text-decoration: none;
   color: white;
+}
+
+.footer__copy {
+  margin-top: 23px;
 }
 
 .main-section__content-container {
@@ -1376,7 +1383,7 @@ html {
   position: absolute;
   width: 1319px;
   height: 501px;
-  left: 550px;
+  left: 583px;
   top: 180px;
 }
 
