@@ -1475,7 +1475,7 @@ input:invalid + span:after {
   width: 721px;
   height: 428px;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .hr-line {
