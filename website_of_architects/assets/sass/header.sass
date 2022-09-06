@@ -1,29 +1,31 @@
 
-.main-section
-    height: 934px
+.nav-container
+    display: flex
+    flex-direction: row
+    align-items: center
+    // justify-content: center
+    // // width: calc( 100vw - 270px )
+    height: 102px
+    // border: 1px solid green
     &__logo
         width: 70px
-    &__nav-container
-        display: flex
-        flex-direction: row
-        align-items: center
-        margin-top: 45px
-        margin-bottom: 45px
-        
-.nav-menu
-    font-family: "Roboto", sans-serif
-    margin-left: 320px
+        // border: 1px solid blue
+    &__nav-menu
+        // border: 1px solid red
+        font-family: "Roboto", sans-serif
+        margin-left: 320px
+
     &__list
         display: flex
-        flex-direction: row
-    &__item
+        flex-direction: row    
+    &__list-item
         height: 20px
         margin-right: 65px
-        text-align: center
+
         &:last-child
             width: 83px
             margin-right: 0px
-    &__item a
+    &__list-item a
         color: #333333
         text-decoration: none
         &:hover

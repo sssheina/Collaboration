@@ -789,42 +789,36 @@ body {
   color: #333333;
 }
 
-.main-section {
-  height: 934px;
-}
-.main-section__logo {
-  width: 70px;
-}
-.main-section__nav-container {
+.nav-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 45px;
-  margin-bottom: 45px;
+  height: 102px;
 }
-
-.nav-menu {
+.nav-container__logo {
+  width: 70px;
+}
+.nav-container__nav-menu {
   font-family: "Roboto", sans-serif;
   margin-left: 320px;
 }
-.nav-menu__list {
+.nav-container__list {
   display: flex;
   flex-direction: row;
 }
-.nav-menu__item {
+.nav-container__list-item {
   height: 20px;
   margin-right: 65px;
-  text-align: center;
 }
-.nav-menu__item:last-child {
+.nav-container__list-item:last-child {
   width: 83px;
   margin-right: 0px;
 }
-.nav-menu__item a {
+.nav-container__list-item a {
   color: #333333;
   text-decoration: none;
 }
-.nav-menu__item a:hover {
+.nav-container__list-item a:hover {
   border-top: 1px solid #333333;
   border-bottom: 1px solid #333333;
   padding-top: 3.89px;
