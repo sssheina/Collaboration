@@ -1469,7 +1469,7 @@ input:invalid + span:after {
   grid-area: item3;
 }
 
-.content-text {
+.content-text2 {
   grid-area: content-text;
   position: relative;
   width: 721px;
