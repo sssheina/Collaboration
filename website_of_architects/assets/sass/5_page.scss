@@ -1,6 +1,8 @@
 .main-section__content-container_two {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    min-height: 1035px;
     
 }
 .main-section__row-1 {
@@ -9,47 +11,50 @@
 .main-section__subtitle_two {
     margin-top: 0;
 }
-.main-section__row-2_two {
+.gallery {
     display: grid;
-    grid-template-areas: 
-    "gray-1 gray-2 gray-3 gray-4 gray-5"
-    "gray-6 gray-7 gray-8 gray-9 gray-10";
-    grid-template-columns: repeat (5, 1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(2, 260px); 
+    grid-template-columns: repeat(auto-fit, 210px);
+    // grid-template-areas: 
+    // "gray-1 gray-2 gray-3 gray-4 gray-5"
+    // "gray-6 gray-7 gray-8 gray-9 gray-10";
+    // grid-template-columns: repeat(auto-fit, 1fr);
+    // grid-template-rows: 1fr 1fr;
+    // grid-auto-flow: dense;
     gap: 30px;
     margin-top: 61px;
 }
 
-.main-section__gray-1 {
-    grid-area: gray-1;
-}
-.main-section__gray-2 {
-    grid-area: gray-2;
-}
-.main-section__gray-3 {
-    grid-area: gray-3;
-}
-.main-section__gray-4 {
-    grid-area: gray-4;
-}
-.main-section__gray-5 {
-    grid-area: gray-5;
-}
-.main-section__gray-6 {
-    grid-area: gray-6;
-}
-.main-section__gray-7 {
-    grid-area: gray-7;
-}
-.main-section__gray-8 {
-    grid-area: gray-8;
-}
-.main-section__gray-9 {
-    grid-area: gray-9;
-}
-.main-section__gray-10 {
-    grid-area: gray-10;
-}
+// .main-section__gray-1 {
+//     grid-area: gray-1;
+// }
+// .main-section__gray-2 {
+//     grid-area: gray-2;
+// }
+// .main-section__gray-3 {
+//     grid-area: gray-3;
+// }
+// .main-section__gray-4 {
+//     grid-area: gray-4;
+// }
+// .main-section__gray-5 {
+//     grid-area: gray-5;
+// }
+// .main-section__gray-6 {
+//     grid-area: gray-6;
+// }
+// .main-section__gray-7 {
+//     grid-area: gray-7;
+// }
+// .main-section__gray-8 {
+//     grid-area: gray-8;
+// }
+// .main-section__gray-9 {
+//     grid-area: gray-9;
+// }
+// .main-section__gray-10 {
+//     grid-area: gray-10;
+// }
 
 .main-section__row-3 {
     display: flex;
