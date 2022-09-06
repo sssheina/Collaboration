@@ -1209,7 +1209,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
 }
 
 html {
@@ -1296,11 +1296,6 @@ html {
 
 .gray {
   -webkit-filter: grayscale(100%);
-}
-
-.f1 {
-  font-family: "";
-  color: black;
 }
 
 .main-section__subtitle {
