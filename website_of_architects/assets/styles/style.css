@@ -1449,8 +1449,8 @@ input:invalid + span:after {
 .four-section__item-container {
   display: grid;
   grid-template-areas: "item1 item1" "item2 content-text" "item3 item3";
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   margin-top: 30px;
@@ -1472,7 +1472,10 @@ input:invalid + span:after {
 .content-text {
   grid-area: content-text;
   position: relative;
-  line-height: 16px;
+  width: 721px;
+  height: 428px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .hr-line {
