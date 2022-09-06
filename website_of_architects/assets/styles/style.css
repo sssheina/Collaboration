@@ -1299,28 +1299,28 @@ html {
   -webkit-filter: grayscale(100%);
 }
 
+.main-section {
+  min-height: 1035px;
+  margin: 0 auto;
+}
 .main-section__subtitle {
   margin-top: 80px;
-  margin-left: 235px;
-}
-.main-section__title1 {
-  margin-left: 235px;
 }
 .main-section__long-line {
-  margin: 30px 0 30px 235px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .main-section__grid-container {
   display: grid;
   grid-template-rows: repeat(2, 260px);
   grid-template-columns: repeat(auto-fit, 210px);
   grid-gap: 30px;
-  margin-left: 235px;
   margin-bottom: 61px;
   max-width: 1170px;
 }
-
-.elements1 {
-  margin-left: 235px;
+.main-section__arrows {
+  display: flex;
+  flex-direction: row;
 }
 
 .grid-container {
