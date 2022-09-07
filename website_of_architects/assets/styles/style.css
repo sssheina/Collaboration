@@ -831,7 +831,7 @@ body {
   transition: 0.1s ease-in;
 }
 
-.footer-background {
+.footer__background {
   background-color: #2C2C2C;
   max-width: 100%;
   height: 417px;
@@ -839,11 +839,11 @@ body {
   color: white;
 }
 
-.footer-conteiner {
+.footer__conteiner {
   max-width: 1800px;
 }
 
-.footer-container__grid {
+.footer__grid-conteiner {
   display: grid;
   grid-template-areas: "column-1 column-2 column-3 column-4";
   grid-template-columns: 1fr 1fr 2fr 2fr;
@@ -852,47 +852,47 @@ body {
   margin-left: 270px;
 }
 
-.footer-column__logo {
+.footer__column-logo {
   width: 145px;
   height: 94px;
 }
 
-.footer-span {
+.footer__span {
   right: 67.85%;
 }
 
-.footer-column {
+.footer__column {
   grid-area: column-1;
   max-width: 400px;
   margin-top: 58px;
 }
 
-.footer-column__2 {
+.footer__column-2 {
   grid-area: column-2;
   margin-top: 58px;
   line-height: 40px;
 }
 
-.footer-column__3 {
+.footer__column-3 {
   grid-area: column-3;
   margin-top: 58px;
   line-height: 50px;
 }
 
-.footer-column__4 {
+.footer__column-4 {
   grid-area: column-4;
   margin-top: 58px;
   line-height: 40px;
 }
 
-.footer-line {
+.footer__line {
   width: 100%;
   text-align: center;
   color: rgba(200, 200, 200, 0.5);
   font-size: 12px;
 }
 
-.footer-column__icon {
+.footer__column-icon {
   text-decoration: none;
   background: #2C2C2C;
   margin: 25px;
@@ -903,18 +903,18 @@ body {
   opacity: 0.6;
 }
 
-.footer-column__icons {
+.footer__column-icons {
   text-decoration: none;
   background: #2C2C2C;
   margin-right: 25px;
 }
 
-.footer-main__item {
+.footer__main-item {
   text-decoration: none;
   color: white;
 }
 
-.footer-lyne__copy {
+.footer__lyne-copy {
   margin-top: 23px;
 }
 
@@ -1118,9 +1118,29 @@ body {
 .fifth-section__button {
   background-color: #333333;
   color: white;
+  height: 20px;
+  padding-top: 30px;
 }
 .fifth-section__button:hover {
   background: #8D8D8D;
+}
+.fifth-section__topbutton {
+  border-radius: 40px;
+  background: #8D8D8D;
+  color: #FFFFFF;
+  width: 150px;
+  height: 40px;
+  text-decoration: none;
+  text-align: center;
+  align-self: flex-end;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+.fifth-section__topbutton:hover {
+  box-shadow: 5px 0px 10px 0px #333333;
+  background: #F3F3F3;
+  color: #333333;
+  transition: 0.3s;
 }
 
 .fourth-section__container {
