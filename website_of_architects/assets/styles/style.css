@@ -793,6 +793,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  max-width: 1440px;
   height: 102px;
 }
 .nav-container__logo {
@@ -800,7 +801,7 @@ body {
 }
 .nav-container__nav-menu {
   font-family: "Roboto", sans-serif;
-  margin-left: 318px;
+  margin-left: 315px;
 }
 .nav-container__list {
   display: flex;
@@ -1272,6 +1273,11 @@ html {
   margin-top: 80px;
 }
 .main-section__long-line {
+  max-width: 1170px;
+  height: 1px;
+  background: #F2F2F2;
+  color: #F2F2F2;
+  border: none;
   margin-top: 30px;
   margin-bottom: 30px;
 }
