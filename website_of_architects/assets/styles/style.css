@@ -940,16 +940,14 @@ body {
 
 .main-section__button {
   position: absolute;
-  top: 96%;
-  left: 14%;
+  top: 97%;
+  left: 12%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #ffffff;
   color: #333333;
   line-height: 12px;
   letter-spacing: 0.3rem;
-  width: 222px;
-  max-height: 71px;
   cursor: pointer;
   text-align: center;
 }
@@ -996,26 +994,6 @@ body {
   align-self: center;
   align-content: center;
   align-items: center;
-}
-
-.button {
-  border: none;
-  padding-top: 27px;
-  padding-bottom: 29px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 400;
-  width: 222px;
-  height: 71px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  line-height: 12px;
-}
-
-.button:hover {
-  background-color: #f2f2f2;
 }
 
 .button-arrows {
@@ -1496,18 +1474,14 @@ input:invalid + span:after {
   background-color: #ffffff;
   border: none;
   color: #333333;
-  padding-top: 27px;
-  padding-bottom: 29px;
+  padding: 1rem 1.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
   font-weight: 400;
-  width: 222px;
-  height: 71px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  line-height: 12px;
 }
 
 .button-white:hover {
@@ -1518,18 +1492,14 @@ input:invalid + span:after {
   background-color: #333333;
   border: none;
   color: white;
-  padding-top: 27px;
-  padding-bottom: 29px;
+  padding: 1rem 1.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
   font-weight: 400;
-  width: 222px;
-  height: 71px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  line-height: 12px;
 }
 
 .button-black:hover {
