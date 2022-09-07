@@ -1494,8 +1494,8 @@ input:invalid + span:after {
   color: black;
 }
 
-.button {
-  background-color: white;
+.button-white {
+  background-color: #ffffff;
   border: none;
   color: #333333;
   padding-top: 27px;
@@ -1512,11 +1512,11 @@ input:invalid + span:after {
   line-height: 12px;
 }
 
-.button:hover {
+.button-white:hover {
   background-color: #f2f2f2;
 }
 
-.button {
+.button-black {
   background-color: #333333;
   border: none;
   color: white;
@@ -1534,7 +1534,7 @@ input:invalid + span:after {
   line-height: 12px;
 }
 
-.button:hover {
+.button-black:hover {
   background-color: #5a5a5a;
 }
 
