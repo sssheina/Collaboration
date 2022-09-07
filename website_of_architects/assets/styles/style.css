@@ -1221,7 +1221,11 @@ html {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  min-height: 1035px;
+  min-height: 100%;
+}
+
+.container_two {
+  flex: 1 1 auto;
 }
 
 .main-section__row-1 {

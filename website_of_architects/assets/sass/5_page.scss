@@ -1,9 +1,22 @@
+
+// body {
+//     height: 100%;;
+// }
+// .main-section {
+//     display: flex;
+//     flex-direction: column;
+//     min-height: 100%;
+// }
 .main-section__content-container_two {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    min-height: 1035px;
+    // min-height: 1035px;
+    min-height: 100%;
     
+}
+.container_two {
+    flex: 1 1 auto;
 }
 .main-section__row-1 {
     margin-top: 47,14px;
