@@ -1116,6 +1116,7 @@ body {
   grid-template-rows: 1fr;
   max-width: 1170px;
   min-height: 466x;
+  margin-top: 120px;
   background: linear-gradient(to bottom, #FBFBFB 75%, white 25%);
 }
 
@@ -1161,7 +1162,7 @@ body {
   line-height: 25px;
 }
 
-.second-section__button {
+.button-white-absolute {
   position: absolute;
   width: 222px;
   background-color: white;
