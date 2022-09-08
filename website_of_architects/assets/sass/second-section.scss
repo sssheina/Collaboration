@@ -62,9 +62,11 @@
 .second-section__button {
     position: absolute;
     width: 222px;
-    height: 71px;
+    // height: 71px;
     background-color: white;
     align-self: end;
     margin-top: 0px;
     margin-left: 40px;
+    padding: 0;
+    border: 1px solid red;
 }

@@ -12,25 +12,29 @@
     min-height: 770px;
 }
 .main-section__right-wrapper {
-    
+    // border: 10px solid red;
     position: relative;
-    max-width: 829px;
-    min-height: 770px;
+    width: 829px;
+    height: 770px;
+    background-image: url(/website_of_architects/assets/images/1_block.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .main-section__button {
     position: absolute;
-    top: 96.1%;
-    left: 13.7%;
+    top: 94.7%;
+    left: 14.3%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #ffffff;
-    color: #333333;
-    line-height: 12px;
-    letter-spacing: 0.3rem;
-    // width: 222px;
+    // background-color: #ffffff;
+    // color: #333333;
+    // line-height: 12px;
+    // letter-spacing: 0.3rem;
+    // width: 0px;
     // height: 71px;
     cursor: pointer;
-    text-align: center;
+    // text-align: center;
+    
 }
 
 .main-wrapper2 {
@@ -44,6 +48,7 @@
     flex-direction: row;
     
 }
+
 .row-2 {
     margin-top: 90px;
 }
@@ -76,3 +81,14 @@
     align-items: center;
 }
 
+@media (min-height: 768px) and (max-width: 1080px) {
+    .main-section__content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        max-width: 768px;
+        min-height: 829px;
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+}
