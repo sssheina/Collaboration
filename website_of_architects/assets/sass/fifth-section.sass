@@ -2,10 +2,10 @@
     &__container
         display: flex
         flex-direction: column
+        background-color: lightblue
     &__subtitle
         margin-top: 120px
     &__block
-        width: 1170px
         display: flex
         flex-direction: row
         justify-content: space-between
@@ -45,5 +45,52 @@
             background: #F3F3F3
             color: #333333
             transition:0.3s
+
+@media screen and ( min-width: 768px ) and ( max-width: 1023px )
+    .fifth-section
+        &__subtitle
+            margin-top: 100px
+            margin: 0 auto
+            margin-top: 20px
+        &__block
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            margin-top: 22px
+            margin-bottom: 77px
+        &__picture
+            margin: 0 auto
+            margin-top: 30px
             
-            
+
+@media screen and ( min-width: 480px ) and ( max-width: 767px )
+    .fifth-section
+        &__subtitle
+            margin-top: 100px
+            margin: 0 auto
+            margin-top: 20px
+        &__block
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            margin-top: 22px
+            margin-bottom: 77px
+        &__picture
+            margin: 0 auto
+            margin-top: 30px
+
+@media screen and ( min-width: 320px ) and ( max-width: 479px )
+    .fifth-section
+        &__subtitle
+            margin-top: 100px
+            margin: 0 auto
+            margin-top: 20px
+        &__block
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            margin-top: 22px
+            margin-bottom: 50px
+        &__picture
+            margin: 0 auto
+            margin-top: 30px

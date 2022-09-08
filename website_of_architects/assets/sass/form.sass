@@ -37,3 +37,22 @@ input:invalid + span:after
     color: #C30000
     position: relative
     
+@media screen and ( min-width: 768px ) and ( max-width: 1023px )
+    .form
+        margin: 0 185px         
+        
+@media screen and ( min-width: 480px ) and ( max-width: 767px )
+    .form
+        margin: 0 29.5px
+
+@media screen and ( min-width: 320px ) and ( max-width: 479px )
+    .form
+        margin: 0 auto
+        &__form-item
+            margin-bottom: 10px
+            padding-left: 18px
+            border: none
+            width: 280px
+            height: 36px
+            font-family: 5px
+            letter-spacing: 0.04em
