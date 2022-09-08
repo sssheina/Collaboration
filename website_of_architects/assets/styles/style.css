@@ -1230,46 +1230,54 @@ body {
   gap: 30px;
 }
 
-.fourth-section__item {
-  max-width: 100%;
-  height: auto;
-}
-
-.gallery__first-item {
+.fourth-section__first-elem {
   position: relative;
+  background-image: url("../images/Rectangle_12.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  width: 570px;
+  height: 275px;
 }
 
-.gallery__first-item:before {
+.fourth-section__first-elem:before {
   content: "";
   width: 570px;
-  height: 255px;
+  height: 275px;
   opacity: 0.8;
   position: absolute;
   background: #333333;
+  left: 0;
 }
 
-.gallery__link {
-  position: absolute;
-  padding-top: 190px;
-  padding-left: 79px;
+.fourth-section__link {
+  display: inline-block;
+  position: relative;
+  padding-top: 14px;
+  margin-left: 79px;
   text-decoration: none;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #fff;
 }
-.gallery__link:hover {
+.fourth-section__link:hover {
   text-decoration: underline;
 }
 
-.gallery__title {
-  position: absolute;
-  color: #FFFFFF;
+.fourth-section__heading {
+  position: relative;
+  color: #fff;
   padding-top: 48px;
   padding-left: 79px;
   width: 233px;
+}
+
+.fourth-section__img {
+  max-width: 100%;
+  height: auto;
 }
 
 .fourth-section__button {
@@ -1280,6 +1288,7 @@ body {
 }
 .fourth-section__button:hover {
   background: #8D8D8D;
+  cursor: pointer;
 }
 
 .container {
@@ -1535,17 +1544,15 @@ input:invalid + span:after {
   margin-top: 80px;
 }
 
-.sample-row {
+.our-projects__row {
   display: flex;
-  justify-content: space-between;
-  gap: 30px;
   padding-bottom: 60px;
 }
-.sample-row:last-child {
+.our-projects__row:last-child {
   padding-bottom: 0;
 }
 
-.samples__title {
+.our-projects__samples-title {
   padding-top: 30px;
   font-weight: 300;
   font-size: 40px;
@@ -1553,10 +1560,16 @@ input:invalid + span:after {
   color: #BDBDBD;
 }
 
-.samples__content-text {
+.our-projects__text {
   padding: 73px 0 64px;
   width: 400px;
   height: 120px;
+}
+
+.our-projects__content {
+  padding-left: 30px;
+  padding-right: 70px;
+  background: #FBFBFB;
 }
 
 .content-text {
