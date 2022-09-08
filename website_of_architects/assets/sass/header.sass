@@ -38,3 +38,77 @@
             margin-right: -10px
             transition: 0.1s ease-in
 
+// @media screen and ( min-width: 1024px ) and ( max-width: 1080px ) 
+//     .nav-container
+//         &__nav-menu
+//             margin-left: 315px
+//         &__list-item
+//             margin-right: 45px
+@media screen and ( min-width: 768px ) and ( max-width: 1023px ) 
+    .nav-container
+        &__nav-menu
+            margin-left: 90px
+        &__list-item
+            margin-right: 45px
+
+
+@media screen and ( min-width: 480px ) and ( max-width: 767px )
+    .nav-container
+        height: 80px
+        &__nav-menu
+            margin-left: 26px
+        &__logo
+            display: none
+        &__list-item
+            margin-right: 33px
+            font-size: 11px
+        &__list-item a
+            &:hover
+                padding-left: 5px
+                padding-right: 5px
+                margin-left: -5px
+                margin-right: -5px
+
+@media screen and ( min-width: 320px ) and ( max-width: 479px )
+    .nav-container
+        height: 60px
+        &__nav-menu
+            margin-left: 10px
+        &__list-item
+            margin-right: 10px
+            font-size: 10px
+        &__list-item a
+            &:hover
+                border-top: none
+                border-bottom: none
+                padding-left: none
+                padding-right: none
+                padding-top: none
+                padding-bottom: none
+                font-weight: bold
+        &__logo
+            display: none    
+@media screen and ( min-width: 240px ) and ( max-width: 319px )
+    .nav-container
+        // flex-direction: column
+        // height: 850px
+        &__nav-menu
+            // display: block
+            margin-left: 5px
+        &__list
+        display: block    
+        &__list-item
+            // display: block
+            margin-right: 5px
+            font-size: 8px
+        &__list-item a
+            &:hover
+                border-top: none
+                border-bottom: none
+                padding-left: none
+                padding-right: none
+                padding-top: none
+                padding-bottom: none
+                font-weight: bold
+        &__logo
+            display: none 
