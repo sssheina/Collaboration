@@ -940,16 +940,11 @@ body {
 
 .main-section__button {
   position: absolute;
-  top: 96.1%;
-  left: 13.7%;
+  top: 94.7%;
+  left: 14.3%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #ffffff;
-  color: #333333;
-  line-height: 12px;
-  letter-spacing: 0.3rem;
   cursor: pointer;
-  text-align: center;
 }
 
 .main-wrapper2 {
@@ -1116,13 +1111,9 @@ body {
   margin-left: 30px;
 }
 .fifth-section__button {
-  background-color: #333333;
-  color: white;
-  height: 20px;
-  padding-top: 30px;
-}
-.fifth-section__button:hover {
-  background: #8D8D8D;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: -0.2rem;
 }
 .fifth-section__topbutton {
   border-radius: 40px;
@@ -1263,7 +1254,7 @@ html {
   -webkit-filter: grayscale(100%);
 }
 
-.main-section {
+.main-section__container {
   min-height: 1035px;
   margin: 0 auto;
 }
@@ -1494,15 +1485,17 @@ input:invalid + span:after {
   background-color: #ffffff;
   border: none;
   color: #333333;
-  padding-top: 1.3rem;
-  padding-bottom: 1.3rem;
-  padding-right: 2.8rem;
-  padding-left: 1.7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: -0.2rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
   font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.3rem;
+  width: 222px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
@@ -1515,21 +1508,23 @@ input:invalid + span:after {
   background-color: #333333;
   border: none;
   color: white;
-  padding-top: 1.3rem;
-  padding-bottom: 1.3rem;
-  padding-right: 2.8rem;
-  padding-left: 1.7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: -0.2rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
   font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.3rem;
+  width: 222px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
 
 .button-black:hover {
-  background-color: #5a5a5a;
+  background-color: #8D8D8D;
 }
 
 /*# sourceMappingURL=style.css.map */
