@@ -1514,8 +1514,8 @@ input:invalid + span:after {
   background-color: #333333;
   border: none;
   color: white;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-right: -0.2rem;
   text-align: center;
   text-decoration: none;
