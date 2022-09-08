@@ -684,19 +684,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-
-.main-section {
-  height: 934px;
-}
-
-.main-section__logo {
-  width: 70px;
-}
-
 .third-section {
   margin-top: -30px;
 }
@@ -934,8 +921,11 @@ body {
 
 .main-section__right-wrapper {
   position: relative;
-  max-width: 829px;
-  min-height: 770px;
+  width: 829px;
+  height: 770px;
+  background-image: url(/website_of_architects/assets/images/1_block.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .main-section__button {
@@ -991,6 +981,17 @@ body {
   align-items: center;
 }
 
+@media (min-height: 768px) and (max-width: 1080px) {
+  .main-section__content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    max-width: 768px;
+    min-height: 829px;
+    margin-left: 34px;
+    margin-right: 34px;
+  }
+}
 .button-arrows {
   background-color: #ffffff; /* white */
   border: 2px solid #F2F2F2;
@@ -1201,6 +1202,7 @@ body {
 
 .container {
   max-width: 1170px;
+  margin: 0 auto;
 }
 
 html {
