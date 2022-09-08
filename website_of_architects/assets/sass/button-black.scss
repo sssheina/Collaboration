@@ -2,21 +2,24 @@
     background-color: #333333; 
     border: none;
     color: white;
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem ;
-    padding-right: 2.8rem;
-    padding-left: 1.7rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: -0.20000000000000018rem;
+    // padding-left: -2.3rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    
     font-size: 12px;
     font-weight: 400;
-    // width: 222px;
+    line-height: 12px;
+    letter-spacing: 0.3rem;
+    width: 222px;
     // height: 71px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     // line-height: 12px;
   }
   .button-black:hover {
-    background-color: #5a5a5a;
+    background-color: #8D8D8D;
   }
