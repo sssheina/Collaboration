@@ -1,5 +1,29 @@
 .grid-container
     display: grid
-    grid-template-rows: repeat(2, 260px) 
-    grid-template-columns: repeat(auto-fit, 210px)
-    grid-gap: 30px
+    grid-template-rows: repeat(2, 260px)
+    // grid-auto-rows: 260px 
+    grid-template-columns: repeat(auto-fill, 210px)
+    gap: 30px
+    justify-content: center
+    margin: 0 auto
+    padding: 0
+    
+
+@media only screen and ( min-width: 768px ) and ( max-width: 1023px ) 
+    .grid-container
+        display: grid
+        grid-template-rows: repeat(2, 230px) 
+        grid-template-columns: repeat(auto-fit, 180px)
+        grid-gap: 20px
+// @media screen and ( min-width: 480px ) and ( max-width: 767px )
+//     .grid-container
+//     display: grid
+//     grid-template-rows: repeat(2, 200px) 
+//     grid-template-columns: repeat(auto-fit, 150px)
+//     grid-gap: 10px
+// @media screen and ( min-width: 320px ) and ( max-width: 479px )
+//     .grid-container
+//     display: grid
+//     grid-template-rows: repeat(2, 170px) 
+//     grid-template-columns: repeat(auto-fit, 120px)
+//     grid-gap: 10px
