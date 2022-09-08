@@ -1,3 +1,7 @@
+.main-section {
+    margin-bottom: 120px;
+}
+
 .main-section__content-container {
     display: flex;
     flex-direction: row;
@@ -22,8 +26,8 @@
 }
 .main-section__button {
     position: absolute;
-    top: 94.7%;
-    left: 14.3%;
+    top: 95.1%;
+    left: 13.9%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     // background-color: #ffffff;
