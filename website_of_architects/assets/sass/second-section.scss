@@ -4,7 +4,7 @@
     grid-template-rows: 1fr;
     max-width: 1170px;
     min-height: 466x;
-    margin-top: 120px;
+    // margin-top: 120px;
     background: linear-gradient(to bottom, #FBFBFB 75%, white 25%);
 //    background-color: #fcfbfbfe;
 }
@@ -62,9 +62,11 @@
 .second-section__button {
     position: absolute;
     width: 222px;
-    height: 71px;
+    // height: 71px;
     background-color: white;
     align-self: end;
     margin-top: 0px;
     margin-left: 40px;
+    padding: 0;
+    border: 1px solid red;
 }
