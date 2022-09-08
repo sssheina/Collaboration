@@ -1491,8 +1491,8 @@ input:invalid + span:after {
   background-color: #ffffff;
   border: none;
   color: #333333;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-right: -0.2rem;
   text-align: center;
   text-decoration: none;
@@ -1537,8 +1537,8 @@ input:invalid + span:after {
   background-color: #ffffff;
   border: none;
   color: #333333;
-  padding-top: 26px;
-  padding-bottom: 26px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   padding-right: -0.2rem;
   text-align: center;
   text-decoration: none;
