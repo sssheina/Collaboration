@@ -1173,14 +1173,7 @@ body {
 }
 
 .button-white-absolute {
-  position: absolute;
-  width: 222px;
-  background-color: white;
-  align-self: end;
-  margin-top: 0px;
   margin-left: 40px;
-  padding: 0;
-  border: 1px solid red;
 }
 
 .fifth-section__container {
