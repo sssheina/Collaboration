@@ -882,10 +882,12 @@ body {
 @media screen and (min-width: 240px) and (max-width: 319px) {
   .nav-container {
     height: 40px;
-    display: block;
   }
   .nav-container__nav-menu {
     margin-left: 5px;
+  }
+  .nav-container__list {
+    display: block;
   }
   .nav-container__list-item {
     margin-right: 5px;
@@ -1429,6 +1431,9 @@ html {
   border: none;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.main-section__grid-container {
+  margin-bottom: 61px;
 }
 .main-section__arrows {
   display: flex;
