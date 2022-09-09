@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 25 24" style="enable-background:new 0 0 25 24;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#333333;}
-</style>
-<path class="st0" d="M12.5,20.1c-0.3,0-0.5-0.2-0.5-0.5v-16c0-0.3,0.2-0.5,0.5-0.5S13,3.3,13,3.6v16C13,19.9,12.8,20.1,12.5,20.1z"
-	/>
-<path class="st0" d="M8.7,7.5c-0.2-0.2-0.2-0.5,0-0.7l3.9-3.9l3.9,3.9c0.2,0.2,0.2,0.5,0,0.7c-0.2,0.2-0.5,0.2-0.7,0l-3.1-3.1
-	L9.4,7.5C9.2,7.7,8.9,7.7,8.7,7.5z"/>
+<svg width="9" height="18" viewBox="0 0 9 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 17.9998C4.22386 17.9998 4 17.7759 4 17.4998L4 1.49976C4 1.22361 4.22386 0.999758 4.5 0.999758C4.77614 0.999758 5 1.22361 5 1.49976L5 17.4998C5 17.7759 4.77614 17.9998 4.5 17.9998Z" fill="#333333"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.646447 5.35331C0.451184 5.15805 0.451184 4.84146 0.646447 4.6462L4.5 0.79265L8.35355 4.6462C8.54882 4.84146 8.54882 5.15805 8.35355 5.35331C8.15829 5.54857 7.84171 5.54857 7.64645 5.35331L4.5 2.20686L1.35355 5.35331C1.15829 5.54857 0.841709 5.54857 0.646447 5.35331Z" fill="#333333"/>
 </svg>
