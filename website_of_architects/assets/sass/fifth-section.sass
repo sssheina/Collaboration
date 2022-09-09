@@ -2,20 +2,30 @@
     &__container
         display: flex
         flex-direction: column
-        background-color: lightblue
+        // background-color: lightblue
     &__subtitle
         margin-top: 120px
     &__block
         display: flex
         flex-direction: row
-        justify-content: space-between
+        // display: grid
+        // grid-template-areas: grid1 grid2
+        // grid-template-columns: 1fr 1fr
+        // grid-template-rows: 1fr
+        gap: 30px 
+        justify-items: space-between
         margin-top: 22px
         margin-bottom: 77px
 
     &__picture
+        grid-area: grid2
+        // background-image: url(./assets/images/man-phone.png)
+        // background-size: cover
+        // background-repeat: no-repeat 
         width: 749px
         height: 369px
-        margin-left: 30px
+        // margin-left: 30px
+       
 
     &__button
         padding-top: 2rem
@@ -29,22 +39,22 @@
     //         background: #8D8D8D
     
     &__topbutton
-        border-radius: 40px
-        background: #8D8D8D
-        color: #FFFFFF
+        // border-radius: 40px
+        // background: #8D8D8D
+        // color: #FFFFFF
         width: 150px
-        height: 40px
+        // height: 40px
         
         text-decoration: none
         text-align: center
         align-self: flex-end
         padding-top: 20px
         padding-bottom: 0px
-        &:hover
-            box-shadow: 5px 0px 10px 0px #333333
-            background: #F3F3F3
-            color: #333333
-            transition:0.3s
+        // &:hover
+        //     box-shadow: 5px 0px 10px 0px #333333
+        //     background: #F3F3F3
+        //     color: #333333
+        //     transition:0.3s
 
 @media screen and ( min-width: 768px ) and ( max-width: 1023px )
     .fifth-section
