@@ -1016,7 +1016,7 @@ body {
   position: relative;
   width: 829px;
   height: 770px;
-  background-image: url(./website_of_architects/assets/images/1_block.png);
+  background-image: url(/assets/images/1_block.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1217,6 +1217,10 @@ body {
   align-self: flex-end;
   padding-top: 20px;
   padding-bottom: 0px;
+}
+.fifth-section__topbutton:hover {
+  box-shadow: 5px 0px 10px 0px #333333;
+  transition: 0.3s;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
