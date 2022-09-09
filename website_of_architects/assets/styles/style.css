@@ -882,10 +882,12 @@ body {
 @media screen and (min-width: 240px) and (max-width: 319px) {
   .nav-container {
     height: 40px;
-    display: block;
   }
   .nav-container__nav-menu {
     margin-left: 5px;
+  }
+  .nav-container__list {
+    display: block;
   }
   .nav-container__list-item {
     margin-right: 5px;
@@ -1430,6 +1432,9 @@ html {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.main-section__grid-container {
+  margin-bottom: 61px;
+}
 .main-section__arrows {
   display: flex;
   flex-direction: row;
@@ -1453,7 +1458,7 @@ html {
     grid-gap: 20px;
   }
 }
-.main__section__6__page {
+.main__section-six-page {
   margin-left: 300px;
   margin-top: 165px;
   max-width: 500px;
@@ -1482,7 +1487,7 @@ html {
   margin-top: 30px;
 }
 
-.main__button__6__page {
+.main__button-six-page {
   width: 222px;
   height: 71px;
   margin-top: 33px;
