@@ -881,7 +881,8 @@ body {
 }
 @media screen and (min-width: 240px) and (max-width: 319px) {
   .nav-container {
-    height: 40px;
+    border: 1px solid red;
+    height: 110px;
   }
   .nav-container__nav-menu {
     margin-left: 5px;
@@ -890,7 +891,7 @@ body {
     display: block;
   }
   .nav-container__list-item {
-    margin-right: 5px;
+    border: 1px solid red;
     font-size: 8px;
   }
   .nav-container__list-item a:hover {
@@ -1015,7 +1016,7 @@ body {
   position: relative;
   width: 829px;
   height: 770px;
-  background-image: url(/website_of_architects/assets/images/1_block.png);
+  background-image: url(./website_of_architects/assets/images/1_block.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1187,7 +1188,6 @@ body {
 .fifth-section__container {
   display: flex;
   flex-direction: column;
-  background-color: lightblue;
 }
 .fifth-section__subtitle {
   margin-top: 120px;
@@ -1195,14 +1195,15 @@ body {
 .fifth-section__block {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 30px;
+  justify-items: space-between;
   margin-top: 22px;
   margin-bottom: 77px;
 }
 .fifth-section__picture {
+  grid-area: grid2;
   width: 749px;
   height: 369px;
-  margin-left: 30px;
 }
 .fifth-section__button {
   padding-top: 2rem;
@@ -1210,22 +1211,12 @@ body {
   padding-right: -0.2rem;
 }
 .fifth-section__topbutton {
-  border-radius: 40px;
-  background: #8D8D8D;
-  color: #FFFFFF;
   width: 150px;
-  height: 40px;
   text-decoration: none;
   text-align: center;
   align-self: flex-end;
   padding-top: 20px;
   padding-bottom: 0px;
-}
-.fifth-section__topbutton:hover {
-  box-shadow: 5px 0px 10px 0px #333333;
-  background: #F3F3F3;
-  color: #333333;
-  transition: 0.3s;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -1509,13 +1500,16 @@ html {
   top: 180px;
 }
 
+.form {
+  width: 391px;
+}
 .form__form-item {
   background: #F3F3F3;
   color: #8D8D8D;
   margin-bottom: 10px;
   padding-left: 21px;
   border: none;
-  width: 391px;
+  width: 361px;
   height: 46px;
   font-family: 14px;
   letter-spacing: 0.04em;
