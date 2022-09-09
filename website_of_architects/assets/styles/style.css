@@ -1477,16 +1477,7 @@ html {
 
 .main__button-six-page {
   width: 222px;
-  height: 71px;
-  margin-top: 33px;
-  background: #333333;
-  color: white;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-  font-style: normal;
+  margin-top: 32px;
 }
 
 .main__map {
@@ -1735,6 +1726,29 @@ input:invalid + span:after {
 
 .button-white-absolute:hover {
   background-color: #f2f2f2;
+}
+
+.button-black-absolute {
+  background-color: #333333;
+  border: none;
+  color: white;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: -0.2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.3rem;
+  width: 222px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.button-black-absolute:hover {
+  background-color: #8D8D8D;
 }
 
 /*# sourceMappingURL=style.css.map */
