@@ -1,10 +1,17 @@
 
+.nav
+    width: 100vw
+    height: 102px
+    background: rgb(#ffffff, 0.8)
+    margin: 0 auto
+    padding: 0
+    z-index: 1
+    position: fixed
 .nav-container
     display: flex
     flex-direction: row
     align-items: center
-    // justify-content: space-between
-    max-width: 1440px
+    max-width: 1440px 
     height: 102px
     
     &__logo
@@ -12,7 +19,7 @@
         
     &__nav-menu
         font-family: "Roboto", sans-serif
-        margin-left: 315px
+        margin-left: 310px
 
     &__list
         display: flex
@@ -41,9 +48,9 @@
 @media screen and ( min-width: 1024px ) and ( max-width: 1080px ) 
     .nav-container
         &__nav-menu
-            margin-left: 315px
+            margin-left: 300px
         &__list-item
-            margin-right: 45px
+            margin-right: 31px
 
 @media screen and ( min-width: 768px ) and ( max-width: 1023px ) 
     .nav-container
@@ -57,7 +64,7 @@
     .nav-container
         height: 80px
         &__nav-menu
-            margin-left: 26px
+            margin-left: 36px
         &__logo
             display: none
         &__list-item
@@ -74,7 +81,7 @@
     .nav-container
         height: 60px
         &__nav-menu
-            margin-left: 10px
+            margin-left: 18px
         &__list-item
             margin-right: 10px
             font-size: 10px

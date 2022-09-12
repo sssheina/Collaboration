@@ -1,4 +1,17 @@
 .container {
-    max-width: 1170px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1080px) {
+  .container {
+    max-width: 900px;
     margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 650px;
+    margin: 0 auto;
+  }
 }

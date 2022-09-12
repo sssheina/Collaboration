@@ -1,4 +1,3 @@
-
 // body {
 //     height: 100%;;
 // }
@@ -8,34 +7,34 @@
 //     min-height: 100%;
 // }
 .main-section__content-container_two {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    // min-height: 1035px;
-    min-height: 100%;
-    
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  // min-height: 1035px;
+  min-height: 100%;
+  //   padding-top: 102px;
 }
 .container_two {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 .main-section__row-1 {
-    margin-top: 47,14px;
+  margin-top: 47, 14px;
 }
 .main-section__subtitle_two {
-    margin-top: 0;
+  margin-top: 0;
 }
 .gallery {
-    display: grid;
-    grid-template-rows: repeat(2, 260px); 
-    grid-template-columns: repeat(auto-fit, 210px);
-    // grid-template-areas: 
-    // "gray-1 gray-2 gray-3 gray-4 gray-5"
-    // "gray-6 gray-7 gray-8 gray-9 gray-10";
-    // grid-template-columns: repeat(auto-fit, 1fr);
-    // grid-template-rows: 1fr 1fr;
-    // grid-auto-flow: dense;
-    gap: 30px;
-    margin-top: 61px;
+  display: grid;
+  grid-template-rows: repeat(2, 260px);
+  grid-template-columns: repeat(auto-fit, 210px);
+  // grid-template-areas:
+  // "gray-1 gray-2 gray-3 gray-4 gray-5"
+  // "gray-6 gray-7 gray-8 gray-9 gray-10";
+  // grid-template-columns: repeat(auto-fit, 1fr);
+  // grid-template-rows: 1fr 1fr;
+  // grid-auto-flow: dense;
+  gap: 30px;
+  margin-top: 61px;
 }
 
 // .main-section__gray-1 {
@@ -70,22 +69,22 @@
 // }
 
 .main-section__row-3 {
-    display: flex;
-    flex-direction: row;
-    // width: 297.89px;
-    height: 63px;
-    margin-top: 60px;
-    gap: 30px;
+  display: flex;
+  flex-direction: row;
+  // width: 297.89px;
+  height: 63px;
+  margin-top: 60px;
+  gap: 30px;
 }
 
 .gallery a img:hover {
-    -webkit-filter: none;
-} 
-
-.gallery a img brightness:hover {
-    -webkit-filter: brightness(1);
+  -webkit-filter: none;
 }
 
+.gallery a img brightness:hover {
+  -webkit-filter: brightness(1);
+}
 
-.gray {-webkit-filter:grayscale(100%);}
-
+.gray {
+  -webkit-filter: grayscale(100%);
+}
