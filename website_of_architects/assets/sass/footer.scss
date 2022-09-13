@@ -1,73 +1,72 @@
-.footer__background{  
-    background-color: #2C2C2C;
-    max-width: 100%;
-    height: 417px;
-    margin-top: 120px;
-    color: #FFFF;
+.footer__background {
+  background-color: #2c2c2c;
+  max-width: 100%;
+  height: 417px;
+  margin-top: 120px;
+  color: #ffff;
 }
-.footer__conteiner{
-max-width: 1800px;
+.footer__conteiner {
+  max-width: 1800px;
 }
 .footer__grid-conteiner {
-    display: grid;
-    grid-template-areas: 
-    "column-1 column-2 column-3 column-4";
-    grid-template-columns: 1fr 1fr 2fr 2fr;
-    grid-template-rows: 347px;
-    max-width: 100%;
-    margin-left: 270px;
+  display: grid;
+  grid-template-areas: "column-1 column-2 column-3 column-4";
+  grid-template-columns: 1fr 1fr 2fr 2fr;
+  grid-template-rows: 347px;
+  max-width: 100%;
+  margin-left: 270px;
 }
-.footer__column-logo{
-    width: 145px;
-    height: 94px;
+.footer__column-logo {
+  width: 145px;
+  height: 94px;
 }
-.footer__span{
-    right: 67.85%;
+.footer__span {
+  right: 67.85%;
 }
-.footer__column{
-    grid-area: column-1;
-    max-width: 400px;
-    margin-top: 58px;
+.footer__column {
+  grid-area: column-1;
+  max-width: 400px;
+  margin-top: 58px;
 }
-.footer__column-2{
-    grid-area: column-2;
-    margin-top: 58px;
-    line-height: 40px;
+.footer__column-2 {
+  grid-area: column-2;
+  margin-top: 58px;
+  line-height: 40px;
 }
-.footer__column-3{
-    grid-area: column-3;
-    margin-top: 58px;
-    line-height: 50px;
+.footer__column-3 {
+  grid-area: column-3;
+  margin-top: 58px;
+  line-height: 50px;
 }
-.footer__column-4{
-    grid-area: column-4;
-    margin-top: 58px;
-    line-height: 40px;
+.footer__column-4 {
+  grid-area: column-4;
+  margin-top: 58px;
+  line-height: 40px;
 }
-.footer__line{
-width: 100%;
-text-align: center;
-color: rgba(200, 200, 200, 0.5);
-font-size: 12px;
+.footer__line {
+  width: 100%;
+  text-align: center;
+  color: rgba(200, 200, 200, 0.5);
+  font-size: 12px;
 }
-.footer__column-icon{
-    text-decoration: none; 
-    background: #2C2C2C;
-    margin: 25px;
-    cursor: pointer;
+.footer__column-icon {
+  text-decoration: none;
+  background: #2c2c2c;
+  margin: 25px;
+  cursor: pointer;
 }
-.footer__icon:hover{
-    opacity: 0.6;
+.footer__icon:hover {
+  opacity: 0.6;
 }
-.footer__column-icons{
-    text-decoration: none; 
-    background: #2C2C2C;
-    margin-right: 25px;
+.footer__column-icons {
+  text-decoration: none;
+  background: #2c2c2c;
+  margin-right: 25px;
 }
-.footer__main-item{
-    text-decoration: none;
-    color: white;
+.footer__main-item {
+  text-decoration: none;
+  color: white;
 }
-.footer__lyne-copy{
-    margin-top: 23px;
+.footer__lyne-copy {
+  margin-top: 23px;
 }
