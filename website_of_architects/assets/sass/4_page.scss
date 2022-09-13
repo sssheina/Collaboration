@@ -1,46 +1,49 @@
+.main-section__subtitle_four {
+  padding-top: 102px;
+}
 .line-four {
-    margin: 30px;
-    color: #F2F2F2;
-    border-bottom: 2px solid #F2F2F2;
-    width: 1170px;
-    height: 2px;
-    margin-left: 0;
+  margin: 30px;
+  color: #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+  width: 1170px;
+  height: 2px;
+  margin-left: 0;
 }
 .four-section__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    max-width: 1170px;
-    min-height: 466x;
-    margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  max-width: 1170px;
+  min-height: 466x;
+  margin-top: 30px;
 }
 .four-section__item-container {
-    display: grid;
-    grid-template-areas: 
+  display: grid;
+  grid-template-areas:
     "item1 item1"
     "item2 content-text"
     "item3 item3";
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    padding: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 0;
 }
 .item1 {
-    grid-area: item1;
+  grid-area: item1;
 }
 .item2 {
-    grid-area: item2;
-    margin-top: 0;
+  grid-area: item2;
+  margin-top: 0;
 }
 .item3 {
-    grid-area: item3;
+  grid-area: item3;
 }
 .four-section__content-text {
-    grid-area: content-text;
-    position: relative;
-    width: 721px;
-    height: 428px;
-    font-size: 15px;
-    line-height: 25px;
+  grid-area: content-text;
+  position: relative;
+  width: 721px;
+  height: 428px;
+  font-size: 15px;
+  line-height: 25px;
 }
