@@ -1,45 +1,32 @@
-.main__section-six-page {
-  margin-left: 300px;
+.six-page {
   padding-top: 102px;
-  max-width: 500px;
+  display: flex;
 }
-.main__name {
-  width: 280px;
-  height: 46px;
+.six-page__text {
+  width: 340px;
+}
+.six-page__subtitle {
+  margin-top: 80px;
+}
+.six-page__name {
   margin-top: 34px;
+  margin-bottom: 10px;
   font-weight: bolder;
 }
-.main__adress {
-  width: 100%;
-  height: 46px;
+.six-page__adress {
+  margin-bottom: 44px;
 }
-.main__phone {
-  width: 114px;
-  height: 21px;
+.six-page__phone {
+  margin-bottom: 53px;
+  font-weight: bolder;
 }
-.main__mail {
-  width: 114px;
-  height: 21px;
-  margin-top: 30px;
+.six-page__email {
+  display: block;
+  margin-bottom: 33px;
+  color: #000000;
+  text-decoration: none;
 }
-.main__button-six-page {
-  width: 222px;
-  margin-top: 32px;
-  //     // height: 71px;
-  //     // margin-top: 33px;
-  //     // background: #333333;
-  //     // color: white;
-  //     // letter-spacing: 0.2em;
-  //     // text-transform: uppercase;
-  //     // font-weight: 400;
-  //     // font-size: 12px;
-  //     // line-height: 12px;
-  //     // font-style: normal;
-}
-.main__map {
-  position: absolute;
-  width: 1319px;
-  height: 501px;
-  left: 583px;
-  top: 180px;
+.six-page__map {
+  border: 1px solid black;
+  margin-left: 130px;
 }
