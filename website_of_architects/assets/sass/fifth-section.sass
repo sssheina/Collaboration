@@ -2,92 +2,82 @@
     &__container
         display: flex
         flex-direction: column
-        // background-color: lightblue
+        padding-top: 120px
     &__subtitle
-        margin-top: 120px
+        margin-bottom: 30px
     &__block
         display: flex
-        flex-direction: row
-        // display: grid
-        // grid-template-areas: grid1 grid2
-        // grid-template-columns: 1fr 1fr
-        // grid-template-rows: 1fr
-        gap: 30px 
-        justify-items: space-between
-        margin-top: 22px
+        gap: 30px
+        max-width: 1170px
+        height: auto
         margin-bottom: 77px
-
+    &__pictcontainer
+        max-width: 100%
     &__picture
-        // grid-area: grid2
-        // background-image: url(./assets/images/man-phone.png)
-        // background-size: cover
-        // background-repeat: no-repeat 
-        width: 749px
-        height: 369px
-        // margin-left: 30px
-       
-
-    &__button
-        padding-top: 2rem
-        padding-bottom: 2rem
-        padding-right: -0.20000000000000018rem
-    
+        margin: 0 auto
+        max-width: 100%
+        height: auto  
     &__topbutton
-        width: 150px
-        text-decoration: none
-        text-align: center
         align-self: flex-end
-        padding-top: 20px
-        padding-bottom: 0px
-        // &:hover
-        //     box-shadow: 5px 0px 10px 0px #333333
-        //     transition:0.3s
+
+
+@media screen and (min-width: 1024px) and (max-width: 1080px)
+    .fifth-section
+        &__container
+            padding-top: 80px
+        &__block
+            gap: 20px
+            max-width: 900px
+            margin-bottom: 67px
+    
 
 @media screen and ( min-width: 768px ) and ( max-width: 1023px )
     .fifth-section
+        &__container
+           padding-top: 120px
         &__subtitle
-            margin-top: 100px
-            margin: 0 auto
-            margin-top: 20px
+            margin: 0 auto 30px
         &__block
             display: flex
             flex-direction: column
-            justify-content: space-between
-            margin-top: 22px
-            margin-bottom: 77px
-        &__picture
-            margin: 0 auto
-            margin-top: 30px
-            
+            max-width: 900px
+            margin-bottom: 50px
+
 
 @media screen and ( min-width: 480px ) and ( max-width: 767px )
     .fifth-section
+        &__container
+            padding-top: 70px
         &__subtitle
-            margin-top: 100px
-            margin: 0 auto
-            margin-top: 20px
+            margin: 0 auto 30px
         &__block
             display: flex
             flex-direction: column
-            justify-content: space-between
-            margin-top: 22px
-            margin-bottom: 77px
-        &__picture
-            margin: 0 auto
-            margin-top: 30px
+            max-width: 450px
+            margin-bottom: 50px
 
 @media screen and ( min-width: 320px ) and ( max-width: 479px )
     .fifth-section
+        &__container
+            padding-top: 30px
         &__subtitle
-            margin-top: 100px
-            margin: 0 auto
-            margin-top: 20px
+            margin: 0 auto 30px
         &__block
             display: flex
             flex-direction: column
-            justify-content: space-between
-            margin-top: 22px
-            margin-bottom: 50px
-        &__picture
-            margin: 0 auto
-            margin-top: 30px
+            max-width: 300px
+            margin-bottom: 30px
+
+@media screen and (min-width: 240px) and (max-width: 319px)
+    .fifth-section
+        &__container
+            padding-top: 50px
+        &__block
+            gap: 10px
+        &__subtitle
+            margin: 0 auto 30px
+        &__block
+            display: flex
+            flex-direction: column
+            max-width: 220px
+            margin-bottom: 20px
