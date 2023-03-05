@@ -1021,7 +1021,7 @@ body {
 
 .main-section__button {
   position: absolute;
-  top: 95.3%;
+  top: 106.2%;
   left: 8.9%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -1118,6 +1118,10 @@ body {
   display: flex;
   flex-direction: row;
   gap: 32px;
+}
+
+.second-section {
+  margin-top: 120px;
 }
 
 .second-section__container {
