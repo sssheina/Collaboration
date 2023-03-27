@@ -1,0 +1,25 @@
+.button-black-absolute {
+    background-color: #333333; 
+    border: none;
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: -0.20000000000000018rem;
+    // padding-left: -2.3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.3rem;
+    width: 222px;
+    // height: 71px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    // line-height: 12px;
+  }
+  .button-black-absolute:hover {
+    background-color: #8D8D8D;
+  }
