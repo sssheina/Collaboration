@@ -1,0 +1,32 @@
+.six-page {
+  padding-top: 102px;
+  display: flex;
+}
+.six-page__text {
+  width: 340px;
+}
+.six-page__subtitle {
+  margin-top: 80px;
+}
+.six-page__name {
+  margin-top: 34px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.six-page__adress {
+  margin-bottom: 44px;
+}
+.six-page__phone {
+  margin-bottom: 53px;
+  font-weight: bolder;
+}
+.six-page__email {
+  display: block;
+  margin-bottom: 33px;
+  color: #000000;
+  text-decoration: none;
+}
+.six-page__map {
+  border: 1px solid black;
+  margin-left: 130px;
+}
