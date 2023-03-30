@@ -43,9 +43,10 @@ https://user-images.githubusercontent.com/108290460/228940882-8eaf7a3a-5312-41db
 
 ## View this Website:
 >Click the image below to view our website!
+![2023-03-30_22-23-21](https://user-images.githubusercontent.com/108290460/228945186-ba3ce016-de95-440c-b433-115fb55d406f.png)
 
 
-[<img width="700" src="https://user-images.githubusercontent.com/108290460/228942271-2b8a46fa-d582-42ad-9012-01e27ad07c42.png/>][(https://sssheina.github.io/ITGirl-Project-JS/](https://sssheina.github.io/Collaboration/index.html))
+[<img width="700" src="[https://user-images.githubusercontent.com/108290460/228945186-ba3ce016-de95-440c-b433-115fb55d406f.png />][(https://sssheina.github.io/ITGirl-Project-JS/](https://sssheina.github.io/Collaboration/index.html)
 <br>
 <br>
 
