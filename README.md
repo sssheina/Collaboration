@@ -21,7 +21,8 @@
 
 ## About The Project
 
-Six page semantic and responsive website, with registration form, google map. 
+Six page semantic and responsive website, with registration form, google map.
+ 
 The app was created by a team of developers and designers from DESIGN AND DEVELOPMENT CREATORS as part of a training project.
 
 <br>
@@ -43,22 +44,25 @@ https://user-images.githubusercontent.com/108290460/228940882-8eaf7a3a-5312-41db
 
 ## View this Website:
 >Click the image below to view our website!
-![2023-03-30_22-23-21](https://user-images.githubusercontent.com/108290460/228945186-ba3ce016-de95-440c-b433-115fb55d406f.png)
 
 
-[<img width="700" src="[https://user-images.githubusercontent.com/108290460/228945186-ba3ce016-de95-440c-b433-115fb55d406f.png />][(https://sssheina.github.io/ITGirl-Project-JS/](https://sssheina.github.io/Collaboration/index.html)
+
+[<img width="700" src="https://user-images.githubusercontent.com/108290460/228945186-ba3ce016-de95-440c-b433-115fb55d406f.png" />](https://sssheina.github.io/Collaboration/index.html)
 <br>
 <br>
 
 ## How we built it
 
-    We got the design layout, I created the planner in Trello and the basic structure of the first page, sticking to the BEM. Then we divided the amount of work into smaller parts. We had daily working meetings to synchronise our efforts to build the website.
+We got the design layout, I created the planner in Trello and the basic structure of the first page, sticking to the BEM. Then we divided the amount of work into smaller parts. We had daily working meetings to synchronise our efforts to build the website.
+
 <br>
 <br>
 
 ## Accomplishments that we're proud of
 
-We are proud of our teamwork. We pulled it off despite working in different time zones. We gained invaluable experience working as a team!
+We are proud of our teamwork. We pulled it off despite working in different time zones. 
+
+We gained invaluable experience working as a team!
 <br>
 <br>
 
@@ -74,7 +78,7 @@ We are proud of our teamwork. We pulled it off despite working in different time
 ## Thanks to all Contributors 💪
 Thanks a lot for spending your time helping develop Architectural company website. Thanks a lot! Keep rocking!
 
-[![Contributors](https://contrib.rocks/image?repo=sssheina/ITGirl-Project-JS)](https://github.com/sssheina/Collaboration/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=sssheina/Collaboration)](https://github.com/sssheina/Collaboration/graphs/contributors)
 
 <br>
 
