@@ -21,67 +21,43 @@
 
 ## About The Project
 
-A GTD planner that allows you to break down large projects into small steps and progress towards full implementation without procrastination. 
-
+Six page semantic and responsive website, with registration form, google map. 
 The app was created by a team of developers and designers from DESIGN AND DEVELOPMENT CREATORS as part of a training project.
 
-Six page website, with registration form, map. semantic and responsive
-HTML
- SASS, SCSS
- Java Script
- Grid
-Flex
+<br>
+<br>
 
-<br>
-<br>
-## Inspiration for the Project
 
-After learning about the GTD (Getting Things Done)  planning system and trying to implement it into my daily routine, I was faced with the need to often rewrite unfinished tasks into new lists, which became a big obstacle for me. I tried for several years to find a suitable application for this system that covered my needs, but couldn't find one. So, having previously developed a project hierarchy and quick to-do system based on the GTD system, I offered to make this simple and effective application to the team.
-<br>
-<br>
 
 ## Brief overview video:
->For a brief explanation about GTD planner, you can watch the following video.
+>For a brief explanation about Architectural company website, you can watch the following video.
 
-https://user-images.githubusercontent.com/108290460/228015369-c30a9780-611e-4c52-a752-8be0bb71c322.mov
+<br>
+
+https://user-images.githubusercontent.com/108290460/228940882-8eaf7a3a-5312-41db-a2db-122644c9a825.mov
+
+
 
 <br>
 <br>
 
-## View our Website:
+## View this Website:
 >Click the image below to view our website!
 
 
-[<img width="700" src="https://user-images.githubusercontent.com/108290460/228018052-faf8762e-eab7-4848-aaa4-cf3165717e54.png"/>](https://sssheina.github.io/ITGirl-Project-JS/)
+[<img width="700" src="https://user-images.githubusercontent.com/108290460/228942271-2b8a46fa-d582-42ad-9012-01e27ad07c42.png/>][(https://sssheina.github.io/ITGirl-Project-JS/](https://sssheina.github.io/Collaboration/index.html))
 <br>
 <br>
 
 ## How we built it
 
-We wanted to best model the work environment, so we started with an in-depth understanding of the problem with a proper focus group survey, which led to the creation of functions and prioritisation of those functions. After prioritising, we divided the workload into small parts.
-
-First I built a hierarchy of task lists and made a prototype in Figma, based on which I implemented the layout design. 
-We made array lists with pop-up modal windows, as our task was to practice JS and CSS skills.
-<br>
-<br>
-
-## Challenges we ran into
-
-We wanted to implement this project as best we could. There were so many things we wanted to add, and we needed to do so many things so that every feature was also very useful. Communication and clear results were key, especially with our big time difference.
-
-But we were faced with the issue of storing personal data, which in this project is still stored in Local Storage.
+    We got the design layout, I created the planner in Trello and the basic structure of the first page, sticking to the BEM. Then we divided the amount of work into smaller parts. We had daily working meetings to synchronise our efforts to build the website.
 <br>
 <br>
 
 ## Accomplishments that we're proud of
 
-Exploring new areas of development and new languages and frameworks that we now feel we can confidently continue to build for our own projects. We have done so much during our time working on the project, and we are so proud of what we have created and how this application can help us and others improve the quality of life.
-<br>
-<br>
-
-## What's next for GTD planner
-
-We would like to keep working, create a useful application and collaborate with more community members to develop the backend part of the project. And do user authorisation for better usability.
+We are proud of our teamwork. We pulled it off despite working in different time zones. We gained invaluable experience working as a team!
 <br>
 <br>
 
@@ -95,9 +71,9 @@ We would like to keep working, create a useful application and collaborate with 
 
 
 ## Thanks to all Contributors 💪
-Thanks a lot for spending your time helping GTD planner grow. Thanks a lot! Keep rocking!
+Thanks a lot for spending your time helping develop Architectural company website. Thanks a lot! Keep rocking!
 
-[![Contributors](https://contrib.rocks/image?repo=sssheina/ITGirl-Project-JS)](https://github.com/sssheina/ITGirl-Project-JS/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=sssheina/ITGirl-Project-JS)](https://github.com/sssheina/Collaboration/graphs/contributors)
 
 <br>
 
