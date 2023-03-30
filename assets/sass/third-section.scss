@@ -18,7 +18,7 @@
     flex-direction: row;
     position: relative;
     justify-content: space-between;
-    width: 1170px;
+    max-width: 1170px;
     min-height: 144px;
     margin-top: 62px;
 }
@@ -48,11 +48,7 @@
     align-self: center;
 }
 
-// .third-section__span {
-//     font-weight: 900;
-//     font-size: 200px;
-//     color: #F2F2F2;
-// }
+
 
 .third-section__svg-1 {
     position: relative;

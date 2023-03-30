@@ -707,7 +707,7 @@ body {
   flex-direction: row;
   position: relative;
   justify-content: space-between;
-  width: 1170px;
+  max-width: 1170px;
   min-height: 144px;
   margin-top: 62px;
 }
@@ -983,7 +983,7 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  max-width: 99.9%;
   height: 430px;
   margin-top: 120px;
 }
